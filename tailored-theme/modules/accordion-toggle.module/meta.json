@@ -1,0 +1,8 @@
+{
+  "global" : false,
+  "icon" : "https://cdn2.hubspot.net/hubfs/298884/Module%20Icons/accordion-01.svg",
+  "host_template_types" : [ "PAGE", "BLOG_LISTING", "BLOG_POST" ],
+  "module_id" : 101753539084,
+  "label" : "Accordion",
+  "is_available_for_new_content" : true
+}

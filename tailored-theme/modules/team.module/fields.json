@@ -1,0 +1,493 @@
+[ {
+  "id" : "dead5ad9-ae1e-0c04-cbf7-62173a7aab34",
+  "name" : "dan_binder",
+  "display_width" : null,
+  "label" : "Dan Binder",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "b7cfc924-59d7-e581-f6b8-174c5bfe845f",
+    "name" : "member_name",
+    "display_width" : null,
+    "label" : "Member Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "First Last",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "First Last"
+  }, {
+    "id" : "11124dbc-45ba-5271-aa16-1a9737ccb51d",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Title",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Title"
+  }, {
+    "id" : "af29d92b-52aa-52bc-7639-7b78fdae0bb0",
+    "name" : "card_image",
+    "display_width" : null,
+    "label" : "Card Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/headshot-standin.jpg",
+      "alt" : "headshot-standin",
+      "loading" : "lazy",
+      "width" : 1002,
+      "height" : 1002,
+      "max_width" : 1002,
+      "max_height" : 1002
+    }
+  }, {
+    "id" : "ee5bf8ab-1e97-2bc9-dba4-c8c7a7818110",
+    "name" : "member_profile",
+    "display_width" : null,
+    "label" : "Member Profile",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>Mike serves as the President of Workforce Transformation Services at WG Consulting. He has over 15 years of experience in building and leading teams in the Supply Chain, Human Resources, and Contingent Workforce areas. Mike is recognized for his ability to leverage Supply Chain, Human Resources, and Contingent Workforce Leading Practices into fit for purpose solutions for multiple fortune 500 companies. He is a certified Contingent Workforce Professional by Staffing Industry Analysts and has strong industry experience and interpersonal skills to deliver the most challenging projects and programs. He is focused on building high performance teams with proven skills to enable and support growing organizations. He has led large scale projects at Molina Healthcare, City of Hope, Waste Management, Shell Oil and ConocoPhillips. His core expertise includes extensive experience gathering business requirements, developing executive level business cases, category management, strategic sourcing, Supply Chain optimization, risk mitigation, organizational change management, business process redesign, project planning and project management.</p>\n<h2 class=\"text-center md:text-left mb-3\">Representative Experience</h2>\n<ul class=\"listee\">\n<li>Designed and implemented a Affordable Healthcare Act compliance process for a large health system</li>\n<li>Engaged corporate leadership to design and establish policies and procedures to govern the entire workforce</li>\n<li>Led a large consulting engagement of 20 plus consultants identifying and fixing gaps within Human Resources, Finance, Accounting, and IT</li>\n<li>Supported a healthcare executive with organizational design work for the corporate board</li>\n<li>Established a MSP operating model at WG Consulting for a large healthcare system</li>\n<li>Conducted a E&amp;P market analysis to determine peer group opportunities for a large E&amp;P company</li>\n<li>Managed an Americas support services organization responsible for $1.5B in annual spend, program compliance, and global analytics</li>\n<li>Led the global implementation of a Managed Service Provider (MSP) and Vendor Management System (VMS) tasks included requirements gathering, business case development, stakeholder management, organizational change management, system and process design, communications planning and execution, project management, and program execution</li>\n<li>Responsible for establishing a category management structure and strategy for approximately 20,000 suppliers and $3B in annual spend</li>\n<li>Implemented a Recruitment Process Outsourcing solution to support the creation of a fortune 100 company during a spin off</li>\n<li>Developed a global strategy to reduce the existing contingent labor supplier base by 60%, which resulted in a $10 million savings in annual cost</li>\n<li>Designed the first oil and gas industrial labor VMS implementation to support a refinery turnaround</li>\n</ul>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "member_name" : "First Last",
+    "title" : "Title",
+    "card_image" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/headshot-standin.jpg",
+      "alt" : "headshot-standin",
+      "loading" : "lazy",
+      "width" : 1002,
+      "height" : 1002,
+      "max_width" : 1002,
+      "max_height" : 1002
+    },
+    "member_profile" : "<p>Mike serves as the President of Workforce Transformation Services at WG Consulting. He has over 15 years of experience in building and leading teams in the Supply Chain, Human Resources, and Contingent Workforce areas. Mike is recognized for his ability to leverage Supply Chain, Human Resources, and Contingent Workforce Leading Practices into fit for purpose solutions for multiple fortune 500 companies. He is a certified Contingent Workforce Professional by Staffing Industry Analysts and has strong industry experience and interpersonal skills to deliver the most challenging projects and programs. He is focused on building high performance teams with proven skills to enable and support growing organizations. He has led large scale projects at Molina Healthcare, City of Hope, Waste Management, Shell Oil and ConocoPhillips. His core expertise includes extensive experience gathering business requirements, developing executive level business cases, category management, strategic sourcing, Supply Chain optimization, risk mitigation, organizational change management, business process redesign, project planning and project management.</p>\n<h2 class=\"text-center md:text-left mb-3\">Representative Experience</h2>\n<ul class=\"listee\">\n<li>Designed and implemented a Affordable Healthcare Act compliance process for a large health system</li>\n<li>Engaged corporate leadership to design and establish policies and procedures to govern the entire workforce</li>\n<li>Led a large consulting engagement of 20 plus consultants identifying and fixing gaps within Human Resources, Finance, Accounting, and IT</li>\n<li>Supported a healthcare executive with organizational design work for the corporate board</li>\n<li>Established a MSP operating model at WG Consulting for a large healthcare system</li>\n<li>Conducted a E&amp;P market analysis to determine peer group opportunities for a large E&amp;P company</li>\n<li>Managed an Americas support services organization responsible for $1.5B in annual spend, program compliance, and global analytics</li>\n<li>Led the global implementation of a Managed Service Provider (MSP) and Vendor Management System (VMS) tasks included requirements gathering, business case development, stakeholder management, organizational change management, system and process design, communications planning and execution, project management, and program execution</li>\n<li>Responsible for establishing a category management structure and strategy for approximately 20,000 suppliers and $3B in annual spend</li>\n<li>Implemented a Recruitment Process Outsourcing solution to support the creation of a fortune 100 company during a spin off</li>\n<li>Developed a global strategy to reduce the existing contingent labor supplier base by 60%, which resulted in a $10 million savings in annual cost</li>\n<li>Designed the first oil and gas industrial labor VMS implementation to support a refinery turnaround</li>\n</ul>"
+  }
+}, {
+  "id" : "7b8c688d-d65b-f0f8-b4e1-8570dbac2b65",
+  "name" : "julie_binder",
+  "display_width" : null,
+  "label" : "Julie Binder",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "6ed54113-3dd3-4808-c451-0318ef33b871",
+    "name" : "member_name",
+    "display_width" : null,
+    "label" : "Member Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "First Last",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "First Last"
+  }, {
+    "id" : "60e0d1de-62e8-9557-cf4d-c0601b274915",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Title",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Title"
+  }, {
+    "id" : "a7701e1e-043b-b0d2-a2a5-e745302cfdf9",
+    "name" : "card_image",
+    "display_width" : null,
+    "label" : "Card Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/headshot-standin.jpg",
+      "alt" : "headshot-standin",
+      "loading" : "lazy",
+      "width" : 1002,
+      "height" : 1002,
+      "max_width" : 1002,
+      "max_height" : 1002
+    }
+  }, {
+    "id" : "f1657f76-c297-6e9b-6d03-682a942cece8",
+    "name" : "member_profile",
+    "display_width" : null,
+    "label" : "Member Profile",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet ullamcorper diam. Aliquam feugiat auctor lorem, ut hendrerit lorem porttitor id. Praesent luctus pellentesque pharetra. Praesent eu blandit purus. Mauris ornare libero commodo, molestie elit in, ullamcorper ante. Suspendisse vehicula diam sed euismod efficitur. Phasellus viverra quam quis hendrerit tempus. Cras scelerisque leo vitae posuere dapibus. In venenatis facilisis risus vitae vulputate. Duis in massa ex. Maecenas ultricies cursus metus, lobortis venenatis ipsum feugiat vitae. Nunc pretium ipsum egestas arcu vestibulum maximus.</p>\n<p>Fusce sodales ligula nec lobortis dapibus. Donec non rutrum dolor. Ut ultricies laoreet sapien in hendrerit. Duis posuere orci eget risus vulputate vestibulum sit amet vel massa. Integer sit amet felis finibus, dapibus neque id, suscipit nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare nisl a rutrum aliquam. Cras risus ipsum, feugiat quis scelerisque ut, euismod eu eros.</p>\n<p>Vestibulum egestas, lectus nec tristique placerat, libero erat molestie neque, quis fringilla ante risus id erat. Proin id tellus id mi egestas semper. Donec vulputate hendrerit erat, in tincidunt orci facilisis vel. Pellentesque est eros, ornare nec tellus in, sodales scelerisque diam. Quisque tempor, justo a facilisis laoreet, nisi nisi venenatis elit, vel ullamcorper est nisi eget leo. Nunc sem urna, eleifend ut lorem nec, gravida mattis purus. Nulla eu ipsum enim. Quisque sit amet sem sit amet lectus efficitur condimentum. Sed sodales, mi volutpat bibendum hendrerit, massa magna ullamcorper eros, et faucibus ipsum lorem in tortor. Nunc ornare sem vitae enim commodo vestibulum. Integer sed dui varius, imperdiet tellus et, sagittis augue. In nec leo enim. Curabitur diam massa, pellentesque vel auctor id, scelerisque eget metus. Proin bibendum quis lorem quis venenatis. Praesent eu metus non ex blandit facilisis.</p>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "member_name" : "First Last",
+    "title" : "Title",
+    "card_image" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/headshot-standin.jpg",
+      "alt" : "headshot-standin",
+      "loading" : "lazy",
+      "width" : 1002,
+      "height" : 1002,
+      "max_width" : 1002,
+      "max_height" : 1002
+    },
+    "member_profile" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet ullamcorper diam. Aliquam feugiat auctor lorem, ut hendrerit lorem porttitor id. Praesent luctus pellentesque pharetra. Praesent eu blandit purus. Mauris ornare libero commodo, molestie elit in, ullamcorper ante. Suspendisse vehicula diam sed euismod efficitur. Phasellus viverra quam quis hendrerit tempus. Cras scelerisque leo vitae posuere dapibus. In venenatis facilisis risus vitae vulputate. Duis in massa ex. Maecenas ultricies cursus metus, lobortis venenatis ipsum feugiat vitae. Nunc pretium ipsum egestas arcu vestibulum maximus.</p>\n<p>Fusce sodales ligula nec lobortis dapibus. Donec non rutrum dolor. Ut ultricies laoreet sapien in hendrerit. Duis posuere orci eget risus vulputate vestibulum sit amet vel massa. Integer sit amet felis finibus, dapibus neque id, suscipit nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare nisl a rutrum aliquam. Cras risus ipsum, feugiat quis scelerisque ut, euismod eu eros.</p>\n<p>Vestibulum egestas, lectus nec tristique placerat, libero erat molestie neque, quis fringilla ante risus id erat. Proin id tellus id mi egestas semper. Donec vulputate hendrerit erat, in tincidunt orci facilisis vel. Pellentesque est eros, ornare nec tellus in, sodales scelerisque diam. Quisque tempor, justo a facilisis laoreet, nisi nisi venenatis elit, vel ullamcorper est nisi eget leo. Nunc sem urna, eleifend ut lorem nec, gravida mattis purus. Nulla eu ipsum enim. Quisque sit amet sem sit amet lectus efficitur condimentum. Sed sodales, mi volutpat bibendum hendrerit, massa magna ullamcorper eros, et faucibus ipsum lorem in tortor. Nunc ornare sem vitae enim commodo vestibulum. Integer sed dui varius, imperdiet tellus et, sagittis augue. In nec leo enim. Curabitur diam massa, pellentesque vel auctor id, scelerisque eget metus. Proin bibendum quis lorem quis venenatis. Praesent eu metus non ex blandit facilisis.</p>"
+  }
+}, {
+  "id" : "96dd3187-31af-24a6-e50d-1f8557a1a945",
+  "name" : "rick_binder",
+  "display_width" : null,
+  "label" : "Rick Binder",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "4975270c-5ef4-f9c8-eebb-c775543d1c3d",
+    "name" : "member_name",
+    "display_width" : null,
+    "label" : "Member Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "First Last",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "First Last"
+  }, {
+    "id" : "e6c29063-685b-2841-75d4-922ea1fdf644",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Title",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Title"
+  }, {
+    "id" : "4046423a-8997-0d2b-3c95-2aebb23f144a",
+    "name" : "card_image",
+    "display_width" : null,
+    "label" : "Card Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/headshot-standin.jpg",
+      "alt" : "headshot-standin",
+      "loading" : "lazy",
+      "width" : 1002,
+      "height" : 1002,
+      "max_width" : 1002,
+      "max_height" : 1002
+    }
+  }, {
+    "id" : "697537da-531b-8fb4-bef9-f95009e72cdf",
+    "name" : "member_profile",
+    "display_width" : null,
+    "label" : "Member Profile",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet ullamcorper diam. Aliquam feugiat auctor lorem, ut hendrerit lorem porttitor id. Praesent luctus pellentesque pharetra. Praesent eu blandit purus. Mauris ornare libero commodo, molestie elit in, ullamcorper ante. Suspendisse vehicula diam sed euismod efficitur. Phasellus viverra quam quis hendrerit tempus. Cras scelerisque leo vitae posuere dapibus. In venenatis facilisis risus vitae vulputate. Duis in massa ex. Maecenas ultricies cursus metus, lobortis venenatis ipsum feugiat vitae. Nunc pretium ipsum egestas arcu vestibulum maximus.</p>\n<p>Fusce sodales ligula nec lobortis dapibus. Donec non rutrum dolor. Ut ultricies laoreet sapien in hendrerit. Duis posuere orci eget risus vulputate vestibulum sit amet vel massa. Integer sit amet felis finibus, dapibus neque id, suscipit nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare nisl a rutrum aliquam. Cras risus ipsum, feugiat quis scelerisque ut, euismod eu eros.</p>\n<p>Vestibulum egestas, lectus nec tristique placerat, libero erat molestie neque, quis fringilla ante risus id erat. Proin id tellus id mi egestas semper. Donec vulputate hendrerit erat, in tincidunt orci facilisis vel. Pellentesque est eros, ornare nec tellus in, sodales scelerisque diam. Quisque tempor, justo a facilisis laoreet, nisi nisi venenatis elit, vel ullamcorper est nisi eget leo. Nunc sem urna, eleifend ut lorem nec, gravida mattis purus. Nulla eu ipsum enim. Quisque sit amet sem sit amet lectus efficitur condimentum. Sed sodales, mi volutpat bibendum hendrerit, massa magna ullamcorper eros, et faucibus ipsum lorem in tortor. Nunc ornare sem vitae enim commodo vestibulum. Integer sed dui varius, imperdiet tellus et, sagittis augue. In nec leo enim. Curabitur diam massa, pellentesque vel auctor id, scelerisque eget metus. Proin bibendum quis lorem quis venenatis. Praesent eu metus non ex blandit facilisis.</p>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "member_name" : "First Last",
+    "title" : "Title",
+    "card_image" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/headshot-standin.jpg",
+      "alt" : "headshot-standin",
+      "loading" : "lazy",
+      "width" : 1002,
+      "height" : 1002,
+      "max_width" : 1002,
+      "max_height" : 1002
+    },
+    "member_profile" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet ullamcorper diam. Aliquam feugiat auctor lorem, ut hendrerit lorem porttitor id. Praesent luctus pellentesque pharetra. Praesent eu blandit purus. Mauris ornare libero commodo, molestie elit in, ullamcorper ante. Suspendisse vehicula diam sed euismod efficitur. Phasellus viverra quam quis hendrerit tempus. Cras scelerisque leo vitae posuere dapibus. In venenatis facilisis risus vitae vulputate. Duis in massa ex. Maecenas ultricies cursus metus, lobortis venenatis ipsum feugiat vitae. Nunc pretium ipsum egestas arcu vestibulum maximus.</p>\n<p>Fusce sodales ligula nec lobortis dapibus. Donec non rutrum dolor. Ut ultricies laoreet sapien in hendrerit. Duis posuere orci eget risus vulputate vestibulum sit amet vel massa. Integer sit amet felis finibus, dapibus neque id, suscipit nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare nisl a rutrum aliquam. Cras risus ipsum, feugiat quis scelerisque ut, euismod eu eros.</p>\n<p>Vestibulum egestas, lectus nec tristique placerat, libero erat molestie neque, quis fringilla ante risus id erat. Proin id tellus id mi egestas semper. Donec vulputate hendrerit erat, in tincidunt orci facilisis vel. Pellentesque est eros, ornare nec tellus in, sodales scelerisque diam. Quisque tempor, justo a facilisis laoreet, nisi nisi venenatis elit, vel ullamcorper est nisi eget leo. Nunc sem urna, eleifend ut lorem nec, gravida mattis purus. Nulla eu ipsum enim. Quisque sit amet sem sit amet lectus efficitur condimentum. Sed sodales, mi volutpat bibendum hendrerit, massa magna ullamcorper eros, et faucibus ipsum lorem in tortor. Nunc ornare sem vitae enim commodo vestibulum. Integer sed dui varius, imperdiet tellus et, sagittis augue. In nec leo enim. Curabitur diam massa, pellentesque vel auctor id, scelerisque eget metus. Proin bibendum quis lorem quis venenatis. Praesent eu metus non ex blandit facilisis.</p>"
+  }
+}, {
+  "id" : "ef4c027a-15ed-8119-d671-10b2aaa2d110",
+  "name" : "ryan_binder",
+  "display_width" : null,
+  "label" : "Ryan Binder",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "dec348f6-c60c-b5de-0c70-07ba9ca368db",
+    "name" : "member_name",
+    "display_width" : null,
+    "label" : "Member Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "First Last",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "First Last"
+  }, {
+    "id" : "f0fb9a07-c394-8d20-ed0b-24863871a62f",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Title",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Title"
+  }, {
+    "id" : "83a5a3f6-4e8c-8c28-bd6c-fd25e22fe292",
+    "name" : "card_image",
+    "display_width" : null,
+    "label" : "Card Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/headshot-standin.jpg",
+      "alt" : "headshot-standin",
+      "loading" : "lazy",
+      "width" : 1002,
+      "height" : 1002,
+      "max_width" : 1002,
+      "max_height" : 1002
+    }
+  }, {
+    "id" : "b0cc6b90-321e-8cf0-c47d-780d25d1be7b",
+    "name" : "member_profile",
+    "display_width" : null,
+    "label" : "Member Profile",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet ullamcorper diam. Aliquam feugiat auctor lorem, ut hendrerit lorem porttitor id. Praesent luctus pellentesque pharetra. Praesent eu blandit purus. Mauris ornare libero commodo, molestie elit in, ullamcorper ante. Suspendisse vehicula diam sed euismod efficitur. Phasellus viverra quam quis hendrerit tempus. Cras scelerisque leo vitae posuere dapibus. In venenatis facilisis risus vitae vulputate. Duis in massa ex. Maecenas ultricies cursus metus, lobortis venenatis ipsum feugiat vitae. Nunc pretium ipsum egestas arcu vestibulum maximus.</p>\n<p>Fusce sodales ligula nec lobortis dapibus. Donec non rutrum dolor. Ut ultricies laoreet sapien in hendrerit. Duis posuere orci eget risus vulputate vestibulum sit amet vel massa. Integer sit amet felis finibus, dapibus neque id, suscipit nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare nisl a rutrum aliquam. Cras risus ipsum, feugiat quis scelerisque ut, euismod eu eros.</p>\n<p>Vestibulum egestas, lectus nec tristique placerat, libero erat molestie neque, quis fringilla ante risus id erat. Proin id tellus id mi egestas semper. Donec vulputate hendrerit erat, in tincidunt orci facilisis vel. Pellentesque est eros, ornare nec tellus in, sodales scelerisque diam. Quisque tempor, justo a facilisis laoreet, nisi nisi venenatis elit, vel ullamcorper est nisi eget leo. Nunc sem urna, eleifend ut lorem nec, gravida mattis purus. Nulla eu ipsum enim. Quisque sit amet sem sit amet lectus efficitur condimentum. Sed sodales, mi volutpat bibendum hendrerit, massa magna ullamcorper eros, et faucibus ipsum lorem in tortor. Nunc ornare sem vitae enim commodo vestibulum. Integer sed dui varius, imperdiet tellus et, sagittis augue. In nec leo enim. Curabitur diam massa, pellentesque vel auctor id, scelerisque eget metus. Proin bibendum quis lorem quis venenatis. Praesent eu metus non ex blandit facilisis.</p>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "member_name" : "First Last",
+    "title" : "Title",
+    "card_image" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/headshot-standin.jpg",
+      "alt" : "headshot-standin",
+      "loading" : "lazy",
+      "width" : 1002,
+      "height" : 1002,
+      "max_width" : 1002,
+      "max_height" : 1002
+    },
+    "member_profile" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet ullamcorper diam. Aliquam feugiat auctor lorem, ut hendrerit lorem porttitor id. Praesent luctus pellentesque pharetra. Praesent eu blandit purus. Mauris ornare libero commodo, molestie elit in, ullamcorper ante. Suspendisse vehicula diam sed euismod efficitur. Phasellus viverra quam quis hendrerit tempus. Cras scelerisque leo vitae posuere dapibus. In venenatis facilisis risus vitae vulputate. Duis in massa ex. Maecenas ultricies cursus metus, lobortis venenatis ipsum feugiat vitae. Nunc pretium ipsum egestas arcu vestibulum maximus.</p>\n<p>Fusce sodales ligula nec lobortis dapibus. Donec non rutrum dolor. Ut ultricies laoreet sapien in hendrerit. Duis posuere orci eget risus vulputate vestibulum sit amet vel massa. Integer sit amet felis finibus, dapibus neque id, suscipit nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare nisl a rutrum aliquam. Cras risus ipsum, feugiat quis scelerisque ut, euismod eu eros.</p>\n<p>Vestibulum egestas, lectus nec tristique placerat, libero erat molestie neque, quis fringilla ante risus id erat. Proin id tellus id mi egestas semper. Donec vulputate hendrerit erat, in tincidunt orci facilisis vel. Pellentesque est eros, ornare nec tellus in, sodales scelerisque diam. Quisque tempor, justo a facilisis laoreet, nisi nisi venenatis elit, vel ullamcorper est nisi eget leo. Nunc sem urna, eleifend ut lorem nec, gravida mattis purus. Nulla eu ipsum enim. Quisque sit amet sem sit amet lectus efficitur condimentum. Sed sodales, mi volutpat bibendum hendrerit, massa magna ullamcorper eros, et faucibus ipsum lorem in tortor. Nunc ornare sem vitae enim commodo vestibulum. Integer sed dui varius, imperdiet tellus et, sagittis augue. In nec leo enim. Curabitur diam massa, pellentesque vel auctor id, scelerisque eget metus. Proin bibendum quis lorem quis venenatis. Praesent eu metus non ex blandit facilisis.</p>"
+  }
+}, {
+  "id" : "8cf255d5-b5d7-af03-925b-23bc74744007",
+  "name" : "jimmy_gilley",
+  "display_width" : null,
+  "label" : "Jimmy Gilley",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "8e4ecd4e-fc9e-aab5-f2bf-3adb48350b56",
+    "name" : "member_name",
+    "display_width" : null,
+    "label" : "Member Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "First Last",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "First Last"
+  }, {
+    "id" : "e3dcc121-1b59-b1c9-702e-182f796ca5e1",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Title",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Title"
+  }, {
+    "id" : "a15f3b7c-7a25-0183-35d3-9031e39ad5ed",
+    "name" : "card_image",
+    "display_width" : null,
+    "label" : "Card Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/headshot-standin.jpg",
+      "alt" : "headshot-standin",
+      "loading" : "lazy",
+      "width" : 1002,
+      "height" : 1002,
+      "max_width" : 1002,
+      "max_height" : 1002
+    }
+  }, {
+    "id" : "833838cd-33be-899f-9ebc-32d83ae2742b",
+    "name" : "member_profile",
+    "display_width" : null,
+    "label" : "Member Profile",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet ullamcorper diam. Aliquam feugiat auctor lorem, ut hendrerit lorem porttitor id. Praesent luctus pellentesque pharetra. Praesent eu blandit purus. Mauris ornare libero commodo, molestie elit in, ullamcorper ante. Suspendisse vehicula diam sed euismod efficitur. Phasellus viverra quam quis hendrerit tempus. Cras scelerisque leo vitae posuere dapibus. In venenatis facilisis risus vitae vulputate. Duis in massa ex. Maecenas ultricies cursus metus, lobortis venenatis ipsum feugiat vitae. Nunc pretium ipsum egestas arcu vestibulum maximus.</p>\n<p>Fusce sodales ligula nec lobortis dapibus. Donec non rutrum dolor. Ut ultricies laoreet sapien in hendrerit. Duis posuere orci eget risus vulputate vestibulum sit amet vel massa. Integer sit amet felis finibus, dapibus neque id, suscipit nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare nisl a rutrum aliquam. Cras risus ipsum, feugiat quis scelerisque ut, euismod eu eros.</p>\n<p>Vestibulum egestas, lectus nec tristique placerat, libero erat molestie neque, quis fringilla ante risus id erat. Proin id tellus id mi egestas semper. Donec vulputate hendrerit erat, in tincidunt orci facilisis vel. Pellentesque est eros, ornare nec tellus in, sodales scelerisque diam. Quisque tempor, justo a facilisis laoreet, nisi nisi venenatis elit, vel ullamcorper est nisi eget leo. Nunc sem urna, eleifend ut lorem nec, gravida mattis purus. Nulla eu ipsum enim. Quisque sit amet sem sit amet lectus efficitur condimentum. Sed sodales, mi volutpat bibendum hendrerit, massa magna ullamcorper eros, et faucibus ipsum lorem in tortor. Nunc ornare sem vitae enim commodo vestibulum. Integer sed dui varius, imperdiet tellus et, sagittis augue. In nec leo enim. Curabitur diam massa, pellentesque vel auctor id, scelerisque eget metus. Proin bibendum quis lorem quis venenatis. Praesent eu metus non ex blandit facilisis.</p>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "member_name" : "First Last",
+    "title" : "Title",
+    "card_image" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/headshot-standin.jpg",
+      "alt" : "headshot-standin",
+      "loading" : "lazy",
+      "width" : 1002,
+      "height" : 1002,
+      "max_width" : 1002,
+      "max_height" : 1002
+    },
+    "member_profile" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet ullamcorper diam. Aliquam feugiat auctor lorem, ut hendrerit lorem porttitor id. Praesent luctus pellentesque pharetra. Praesent eu blandit purus. Mauris ornare libero commodo, molestie elit in, ullamcorper ante. Suspendisse vehicula diam sed euismod efficitur. Phasellus viverra quam quis hendrerit tempus. Cras scelerisque leo vitae posuere dapibus. In venenatis facilisis risus vitae vulputate. Duis in massa ex. Maecenas ultricies cursus metus, lobortis venenatis ipsum feugiat vitae. Nunc pretium ipsum egestas arcu vestibulum maximus.</p>\n<p>Fusce sodales ligula nec lobortis dapibus. Donec non rutrum dolor. Ut ultricies laoreet sapien in hendrerit. Duis posuere orci eget risus vulputate vestibulum sit amet vel massa. Integer sit amet felis finibus, dapibus neque id, suscipit nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare nisl a rutrum aliquam. Cras risus ipsum, feugiat quis scelerisque ut, euismod eu eros.</p>\n<p>Vestibulum egestas, lectus nec tristique placerat, libero erat molestie neque, quis fringilla ante risus id erat. Proin id tellus id mi egestas semper. Donec vulputate hendrerit erat, in tincidunt orci facilisis vel. Pellentesque est eros, ornare nec tellus in, sodales scelerisque diam. Quisque tempor, justo a facilisis laoreet, nisi nisi venenatis elit, vel ullamcorper est nisi eget leo. Nunc sem urna, eleifend ut lorem nec, gravida mattis purus. Nulla eu ipsum enim. Quisque sit amet sem sit amet lectus efficitur condimentum. Sed sodales, mi volutpat bibendum hendrerit, massa magna ullamcorper eros, et faucibus ipsum lorem in tortor. Nunc ornare sem vitae enim commodo vestibulum. Integer sed dui varius, imperdiet tellus et, sagittis augue. In nec leo enim. Curabitur diam massa, pellentesque vel auctor id, scelerisque eget metus. Proin bibendum quis lorem quis venenatis. Praesent eu metus non ex blandit facilisis.</p>"
+  }
+}, {
+  "id" : "3d1c46b0-9011-803d-b093-2fd76b626995",
+  "name" : "dylan_browning",
+  "display_width" : null,
+  "label" : "Dylan Browning",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "8e4d8f9c-1f19-9453-544d-60259344170d",
+    "name" : "member_name",
+    "display_width" : null,
+    "label" : "Member Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "First Last",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "First Last"
+  }, {
+    "id" : "9cb0129d-9b63-4e86-7bcd-8bdd1b82cc3f",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Title",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Title"
+  }, {
+    "id" : "0e6c23bd-090c-3f1d-91ce-54a73a8fb222",
+    "name" : "card_image",
+    "display_width" : null,
+    "label" : "Card Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/headshot-standin.jpg",
+      "alt" : "headshot-standin",
+      "loading" : "lazy",
+      "width" : 1002,
+      "height" : 1002,
+      "max_width" : 1002,
+      "max_height" : 1002
+    }
+  }, {
+    "id" : "9190678e-2234-c75a-1ad1-bd0234caec75",
+    "name" : "member_profile",
+    "display_width" : null,
+    "label" : "Member Profile",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet ullamcorper diam. Aliquam feugiat auctor lorem, ut hendrerit lorem porttitor id. Praesent luctus pellentesque pharetra. Praesent eu blandit purus. Mauris ornare libero commodo, molestie elit in, ullamcorper ante. Suspendisse vehicula diam sed euismod efficitur. Phasellus viverra quam quis hendrerit tempus. Cras scelerisque leo vitae posuere dapibus. In venenatis facilisis risus vitae vulputate. Duis in massa ex. Maecenas ultricies cursus metus, lobortis venenatis ipsum feugiat vitae. Nunc pretium ipsum egestas arcu vestibulum maximus.</p>\n<p>Fusce sodales ligula nec lobortis dapibus. Donec non rutrum dolor. Ut ultricies laoreet sapien in hendrerit. Duis posuere orci eget risus vulputate vestibulum sit amet vel massa. Integer sit amet felis finibus, dapibus neque id, suscipit nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare nisl a rutrum aliquam. Cras risus ipsum, feugiat quis scelerisque ut, euismod eu eros.</p>\n<p>Vestibulum egestas, lectus nec tristique placerat, libero erat molestie neque, quis fringilla ante risus id erat. Proin id tellus id mi egestas semper. Donec vulputate hendrerit erat, in tincidunt orci facilisis vel. Pellentesque est eros, ornare nec tellus in, sodales scelerisque diam. Quisque tempor, justo a facilisis laoreet, nisi nisi venenatis elit, vel ullamcorper est nisi eget leo. Nunc sem urna, eleifend ut lorem nec, gravida mattis purus. Nulla eu ipsum enim. Quisque sit amet sem sit amet lectus efficitur condimentum. Sed sodales, mi volutpat bibendum hendrerit, massa magna ullamcorper eros, et faucibus ipsum lorem in tortor. Nunc ornare sem vitae enim commodo vestibulum. Integer sed dui varius, imperdiet tellus et, sagittis augue. In nec leo enim. Curabitur diam massa, pellentesque vel auctor id, scelerisque eget metus. Proin bibendum quis lorem quis venenatis. Praesent eu metus non ex blandit facilisis.</p>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "member_name" : "First Last",
+    "title" : "Title",
+    "card_image" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/headshot-standin.jpg",
+      "alt" : "headshot-standin",
+      "loading" : "lazy",
+      "width" : 1002,
+      "height" : 1002,
+      "max_width" : 1002,
+      "max_height" : 1002
+    },
+    "member_profile" : "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent laoreet ullamcorper diam. Aliquam feugiat auctor lorem, ut hendrerit lorem porttitor id. Praesent luctus pellentesque pharetra. Praesent eu blandit purus. Mauris ornare libero commodo, molestie elit in, ullamcorper ante. Suspendisse vehicula diam sed euismod efficitur. Phasellus viverra quam quis hendrerit tempus. Cras scelerisque leo vitae posuere dapibus. In venenatis facilisis risus vitae vulputate. Duis in massa ex. Maecenas ultricies cursus metus, lobortis venenatis ipsum feugiat vitae. Nunc pretium ipsum egestas arcu vestibulum maximus.</p>\n<p>Fusce sodales ligula nec lobortis dapibus. Donec non rutrum dolor. Ut ultricies laoreet sapien in hendrerit. Duis posuere orci eget risus vulputate vestibulum sit amet vel massa. Integer sit amet felis finibus, dapibus neque id, suscipit nisl. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ornare nisl a rutrum aliquam. Cras risus ipsum, feugiat quis scelerisque ut, euismod eu eros.</p>\n<p>Vestibulum egestas, lectus nec tristique placerat, libero erat molestie neque, quis fringilla ante risus id erat. Proin id tellus id mi egestas semper. Donec vulputate hendrerit erat, in tincidunt orci facilisis vel. Pellentesque est eros, ornare nec tellus in, sodales scelerisque diam. Quisque tempor, justo a facilisis laoreet, nisi nisi venenatis elit, vel ullamcorper est nisi eget leo. Nunc sem urna, eleifend ut lorem nec, gravida mattis purus. Nulla eu ipsum enim. Quisque sit amet sem sit amet lectus efficitur condimentum. Sed sodales, mi volutpat bibendum hendrerit, massa magna ullamcorper eros, et faucibus ipsum lorem in tortor. Nunc ornare sem vitae enim commodo vestibulum. Integer sed dui varius, imperdiet tellus et, sagittis augue. In nec leo enim. Curabitur diam massa, pellentesque vel auctor id, scelerisque eget metus. Proin bibendum quis lorem quis venenatis. Praesent eu metus non ex blandit facilisis.</p>"
+  }
+} ]

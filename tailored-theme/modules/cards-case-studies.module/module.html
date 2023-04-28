@@ -1,0 +1,20 @@
+<div class="ph_cards__section">
+  {% for item in module.case_study_card %}
+    <a href="{{ item.card_url.href }}" target="_blank" class="ph_card__cta">
+      <div class="ph_card__image--wrapper">
+			<div class="ph_card__label-category ff_proxima-nova-cond-bold">
+				{{ item.card_category }}
+			</div>
+			<img src="{{ item.image.src }}" alt="{{ item.image.alt }}" class="ph_card__image--main">
+		</div>
+		<div class="ph_card__label-location ff_proxima-nova-cond-bold">{{ item.location }}</div>
+		<div class="ph_card__body">
+			<h2 class="ff_proxima-nova-cond-bold">{{ item.title }}</h2>
+
+			<h3 class="ff_proxima-nova-light">
+				<div>{{ item.action_label }}</div><img src="https://cdn.glitch.global/57b00a73-2dd8-419b-845e-d72ffd4ecdf6/arrow-with-stem-right-dark-gray.svg?v=1676411563016" alt="arrow" />
+			</h3>
+		</div>
+    </a>
+  {% endfor %}
+</div>

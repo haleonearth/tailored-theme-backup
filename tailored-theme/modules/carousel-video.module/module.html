@@ -1,0 +1,57 @@
+<link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+    <div class="jk_module__video-carousel-wrapper">
+      <swiper-container
+        class="jk_module__video-carousel mySwiper3"
+        init="false"
+      >
+        
+       {% for item in module.video_slide %}
+        <swiper-slide>
+          <div class="jk_vc__slide-card">
+            <div class="jk_vc__body">
+              <div class="jk_vc__video-container">
+                {% if item.videoplayer_field.player_id %} 
+	  {% set max_width = item.videoplayer_field.size_type == 'auto_custom_max' ? item.videoplayer_field.max_width : item.videoplayer_field.width %}
+	  {% set max_height = item.videoplayer_field.size_type == 'auto_custom_max' ? item.videoplayer_field.max_height : item.videoplayer_field.height %}
+	  {% video_player "embed_player"
+	    player_id={{ item.videoplayer_field.player_id }}
+	    type={{ item.videoplayer_field.player_type || 'scriptV4' }}
+	    full_width={{ item.videoplayer_field.size_type == 'auto_full_width' }},
+	    conversion_asset={{ item.videoplayer_field.conversion_asset|tojson|safe }}
+	    autoplay={{ item.videoplayer_field.autoplay }}
+	    hidden_controls={{ item.videoplayer_field.hide_controls }}
+	    loop={{ item.videoplayer_field.loop_video }}
+	    muted={{ item.videoplayer_field.mute_by_default }}
+	  %}
+	{% endif %}
+              </div>
+              <div class="ph_video-titles">
+                <h2>
+                  	{% inline_rich_text field="title" value="{{ item.title }}" no_wrapper=True %}
+                </h2>
+              </div>
+            </div>
+            <!-- /.jk_vc__body  -->
+          </div>
+          <!-- /.jk_vc__slide-card -->
+        </swiper-slide>
+        
+
+
+	
+
+
+{% endfor %} 
+				
+      </swiper-container>
+
+      <div class="jk_vc__next swiper-button-next"></div>
+      <div class="jk_vc__prev swiper-button-prev"></div>
+    </div>
+    <!-- /.jk_module__video-carousel-wrapper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>

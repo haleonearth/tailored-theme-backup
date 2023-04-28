@@ -1,0 +1,70 @@
+[ {
+  "id" : "a86d4d76-26b5-3576-3256-cd229983beb0",
+  "name" : "benefit",
+  "display_width" : null,
+  "label" : "Benefit",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "90f5c9cd-240e-f197-3cf0-b9a3a8d8c9af",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Experience easier and safer patient lifting."
+  }, {
+    "id" : "d0a0b43b-4b34-545b-a9b5-89c8ca3376f4",
+    "name" : "description",
+    "display_width" : null,
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "24 to 32 handles permit team lifting while using proper ergonomics.",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "24 to 32 handles permit team lifting while using proper ergonomics."
+  }, {
+    "id" : "1189f319-1b7b-4b32-cecf-98a44aa3203a",
+    "name" : "image_field",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "title" : "Experience easier and safer patient lifting.",
+    "description" : "24 to 32 handles permit team lifting while using proper ergonomics.",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "",
+      "alt" : null,
+      "loading" : "lazy"
+    }
+  }
+} ]

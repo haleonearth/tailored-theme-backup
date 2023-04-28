@@ -1,0 +1,74 @@
+[ {
+  "id" : "64c39992-a70d-8d51-db8d-a1761a0e94f3",
+  "name" : "accordions",
+  "display_width" : null,
+  "label" : "Accordions",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : null,
+    "sorting_label_field" : "456dd56b-e2c6-f684-664d-d32c9e6fd950",
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "456dd56b-e2c6-f684-664d-d32c9e6fd950",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Label",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Accordion Label"
+  }, {
+    "id" : "85392067-75a4-0eaf-0675-ad895c34248d",
+    "name" : "content",
+    "display_width" : null,
+    "label" : "Content",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>Put some clear and concise content in here. Keep your reader in mind. What are they trying to do? What are they hoping to learn? Why are they reading this? Help them out and use the tone and voice of your organization.</p>"
+  }, {
+    "id" : "4b15a68d-06d7-9f65-25d6-9e30c23e840c",
+    "name" : "open_by_default",
+    "display_width" : null,
+    "label" : "Open by default",
+    "help_text" : "",
+    "required" : false,
+    "locked" : false,
+    "display" : "checkbox",
+    "type" : "boolean",
+    "default" : false
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "title" : "Accordion Label",
+    "content" : "<p>Put some clear and concise content in here. Keep your reader in mind. What are they trying to do? What are they hoping to learn? Why are they reading this? Help them out and use the tone and voice of your organization.</p>",
+    "open_by_default" : false
+  }, {
+    "title" : "Accordion Label",
+    "content" : "<p>Put some clear and concise content in here. Keep your reader in mind. What are they trying to do? What are they hoping to learn? Why are they reading this? Help them out and use the tone and voice of your organization.</p>",
+    "open_by_default" : false
+  }, {
+    "title" : "Accordion Label",
+    "content" : "<p>Put some clear and concise content in here. Keep your reader in mind. What are they trying to do? What are they hoping to learn? Why are they reading this? Help them out and use the tone and voice of your organization.</p>",
+    "open_by_default" : false
+  } ]
+}, {
+  "id" : "70290d0b-c335-b0ed-1ded-626ae45ccfb7",
+  "name" : "max_1_open",
+  "display_width" : null,
+  "label" : "Close inactive accordions",
+  "help_text" : "",
+  "required" : false,
+  "locked" : false,
+  "display" : "checkbox",
+  "type" : "boolean",
+  "default" : false
+} ]

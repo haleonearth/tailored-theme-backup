@@ -1,0 +1,82 @@
+{
+  "name" : {
+    "message" : "product-overview",
+    "description" : "",
+    "placeholders" : null
+  },
+  "product_description.default" : {
+    "message" : "<p>Luctus bibendum facilisi adipiscing tempus ligula posuere dapibus elementum? Lobortis parturient ut lacinia faucibus sit. Primis malesuada curabitur diam tempus gravida montes convallis quisque justo id ut ante. Vivamus venenatis nullam diam. Eros sed conubia nisi urna proin taciti malesuada porttitor? Viverra sem inceptos ipsum sed platea fusce malesuada praesent vivamus pharetra. Fermentum felis vivamus litora at maecenas laoreet dolor, proin dictum conubia! Cubilia curae; quisque laoreet lobortis felis turpis rhoncus lorem.</p>\n<p>Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis lobortis fusce. Lacus aptent, egestas penatibus sollicitudin iaculis. Feugiat accumsan duis feugiat montes erat. Pulvinar malesuada purus proin sociosqu libero sagittis vulputate commodo augue nec laoreet netus. Donec porttitor vel senectus justo condimentum conubia. Per condimentum commodo malesuada etiam in? Lacinia aenean libero, tempor orci ultrices et! Vivamus id potenti id amet id suscipit porttitor ad fringilla. Ultrices tempus ligula, iaculis velit velit pretium in feugiat blandit dui. Sed lorem ac at, eu non et dictumst justo. Fames magnis praesent velit volutpat sociis senectus!</p>\n<p>Litora diam eu conubia sapien rhoncus phasellus arcu cubilia euismod pulvinar class. Morbi tellus aptent sem adipiscing eget duis euismod congue ridiculus, libero feugiat! Parturient eros sociosqu viverra eget erat luctus aliquam? Feugiat neque ultrices non. Neque integer sociosqu quam sem ac ridiculus. Neque non rutrum porttitor fermentum dignissim dis aliquam libero dapibus. Tempor euismod libero pretium. Mus netus euismod euismod! Per, viverra elit risus risus platea aenean.</p>",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_description.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_description.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_description.label" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_description.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_image.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_image.default.loading" : {
+    "message" : "lazy",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_image.default.size_type" : {
+    "message" : "auto",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_image.default.src" : {
+    "message" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/timeline-product.png",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_title.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_title.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_title.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_title.label" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_title.placeholder" : {
+    "message" : "Product Title",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_title.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  }
+}

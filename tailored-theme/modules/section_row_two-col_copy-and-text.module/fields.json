@@ -1,0 +1,52 @@
+[ {
+  "id" : "88d70218-3ae8-967b-d1bc-8db56050f8d5",
+  "name" : "background_image",
+  "display_width" : null,
+  "label" : "Background Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : false,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/bg-yellow-cad.jpg",
+    "alt" : "bg-yellow-cad",
+    "loading" : "lazy",
+    "width" : 2000,
+    "height" : 540,
+    "max_width" : 2000,
+    "max_height" : 540
+  }
+}, {
+  "id" : "5d323a71-f60b-b81d-b0c1-855cc0e5abbf",
+  "name" : "text_column",
+  "display_width" : null,
+  "label" : "Text Column",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<h3>Preventing these injuries starts in the bathroom:</h3>\n<ul>\n<li>80% of patient falls happen in the bathroom</li>\n<li>The average American is getting heavier and older</li>\n<li>Calls for lift assistance are increasing across the country</li>\n</ul>\n<p>Emergency care providers deserve to have equipment that helps them move patients without unnecessarily risking their own health and wellbeing.</p>"
+}, {
+  "id" : "4c2c57cc-f73d-2fb7-01fd-965ff790d600",
+  "name" : "image_column",
+  "display_width" : null,
+  "label" : "Image Column",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/bathroom-fall.jpg",
+    "alt" : "bathroom-fall",
+    "loading" : "lazy",
+    "width" : 874,
+    "height" : 540,
+    "max_width" : 874,
+    "max_height" : 540
+  }
+} ]

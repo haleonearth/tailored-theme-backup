@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@hubspot/cli": "^4.1.7",
+    "npm": "^9.6.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "global" : false,
+  "master_language" : "en",
+  "icon" : "../../../mV0_d-web-default-modules_hubspot/img/icon/folder.svg",
+  "host_template_types" : [ "PAGE", "BLOG_LISTING", "BLOG_POST" ],
+  "module_id" : 110537378160,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../css/tailwind.css",
+    "name" : "tailwind.css"
+  }, {
+    "autoload" : true,
+    "path" : "../../css/main.css",
+    "name" : "main.css"
+  } ],
+  "label" : "Product Overview",
+  "is_available_for_new_content" : true
+}

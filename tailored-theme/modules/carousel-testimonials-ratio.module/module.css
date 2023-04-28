@@ -1,0 +1,217 @@
+.jk_module__testimonial-carousel-2--wrapper {
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+.jk_module__testimonial-carousel-2 {
+	width: 100%;
+	height: 100%;
+	padding: 20px 2px 60px 2px;
+}
+
+.jk_module__testimonial-carousel-2 swiper-slide {
+	font-size: 18px;
+	background: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.jk_module__testimonial-carousel-2 swiper-slide img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.jk_tc2__slide-card {
+	padding: 30px 25px 35px;
+	border-radius: 7px;
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.jk_module__testimonial-carousel-2 swiper-slide .jk_tc2__gx-stars {
+	display: block;
+	max-width: 100px;
+  height: auto;
+	margin-bottom: 20px;
+}
+
+.jk_tc2__slide-card h3 {
+	font-size: 22px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+  white-space: nowrap !important;
+  max-width: 335px;
+}
+
+.jk_tc2__body-copy {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin-bottom: 5px;
+}
+
+.jk_tc2__slide-card p {
+	font-size: 18px;
+	line-height: 26px;
+  margin-bottom: 8px;
+}
+
+.line-clamp {
+	display: -webkit-box;
+	-webkit-line-clamp: 10;
+	-webkit-box-orient: vertical;
+}
+
+.jk_tc2-button {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #0096ff;
+    text-decoration: none;
+}
+
+.jk_tc2-button:hover {
+  background: none;
+  border: none;
+  color: #00497c;
+  text-decoration: underline;
+}
+
+.jk_tc2-button:active,
+.jk_tc2-button:focus,
+.jk_tc2-button:visited {
+  background: none;
+  border: none;
+  color: #00497c;
+}
+
+.jk_tc2__attribution {
+	border-left: 2px solid #fdb414;
+	padding-left: 12px;
+	padding-bottom: 3px;
+}
+
+.jk_tc2__name {
+	font-size: 24px;
+	font-weight: 300;
+	line-height: 32px;
+}
+
+.jk_tc2__org {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+.jk_tc2__next,
+.jk_tc2__prev {
+	color: rgba(253, 180, 20, 0.45) !important;
+}
+
+/*
+ * MODAL
+ */
+
+.jk_tc2-modal {
+	display: none; /* Hide the modal by default */
+	position: fixed; /* Stay in place */
+	z-index: 20; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0, 0, 0); /* Fallback color */
+	background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+	backdrop-filter: blur(10px);
+	transition: all 0.3s ease;
+}
+
+.jk_tc2-modal-content {
+  border-radius: 6px;
+	max-width: 700px;
+	background-color: #fefefe;
+	margin: 5% auto; /* 15% from the top and centered */
+	padding: 10px;
+	border: 1px solid #888;
+	width: 95%; /* Could be more or less, depending on screen size */
+	height: 80vh;
+	overflow-y: scroll;
+	background-image: url("https://cdn.glitch.global/57b00a73-2dd8-419b-845e-d72ffd4ecdf6/gx-icon-quotation-mark-opening.svg?v=1679597670973"),
+		url("https://cdn.glitch.global/57b00a73-2dd8-419b-845e-d72ffd4ecdf6/gx-icon-quotation-mark-closing.svg?v=1679597671239");
+	background-position: left -20px top -10px, right -20px bottom -10px;
+	background-size: 30%, 30%;
+	background-repeat: no-repeat, no-repeat;
+}
+
+.jk_tc2-modal-content__wrapper {
+	padding: 30px 20px;
+}
+
+
+@media (min-width: 650px) {
+  .jk_tc2-modal-content {
+      width: 80%; /* Could be more or less, depending on screen size */
+  }
+    .jk_tc2-modal-content__wrapper {
+    padding: 30px 40px;
+  }
+}
+
+
+/* Style the close button */
+.jk_tc2-modal__close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.jk_tc2-modal__close:hover,
+.jk_tc2-modal__close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+
+p.jk_tc2-modal-attribution {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+
+/* Band-Aid for display of swiper-slide elements on mobile */
+@media (max-width: 800px) {
+    .jk_module__testimonial-carousel-2 swiper-slide {
+        width: 100% !important;
+    }
+}
+
+
+
+/*
+ * Finagling height so they are all the same
+ */
+
+ .jk_height-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ height: 470px; 
+}
+
+

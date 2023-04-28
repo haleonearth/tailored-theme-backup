@@ -1,0 +1,27 @@
+.module_ph_section-navigation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a.ph_section-navigation__link {
+    display: block;
+    min-width: 300px;
+    text-align: center;
+  color: #211f1c;
+    text-decoration: none;
+    font-size: 24px;
+  background: #fdb414;
+  border-radius: 0;
+  font-family: proxima-nova-condensed, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  transition: all 0.3s ease !important;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+
+a.ph_section-navigation__link:hover {
+  background: #f49c00 !important;
+}

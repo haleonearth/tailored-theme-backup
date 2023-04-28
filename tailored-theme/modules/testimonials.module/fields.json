@@ -1,0 +1,103 @@
+[ {
+  "id" : "476e3adf-af89-917b-6451-d0d0862575f6",
+  "name" : "testimonial",
+  "display_width" : null,
+  "label" : "Testimonial",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "f7a1dfd6-f374-7132-726f-84964f873051",
+    "name" : "quote",
+    "display_width" : null,
+    "label" : "Quote",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p>I know that it’s safer: my gut tells me; my experience tells me; it’s safer for patients and our firefighters</p>"
+  }, {
+    "id" : "444e896a-4b32-0efc-2c18-20b1d22bc1c7",
+    "name" : "attribution",
+    "display_width" : null,
+    "label" : "Attribution",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Shane Reynolds, Rescue Chief",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Shane Reynolds, Rescue Chief"
+  }, {
+    "id" : "b8a6435b-baa2-579b-2431-1f536ae2dfbe",
+    "name" : "company",
+    "display_width" : null,
+    "label" : "Company",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Lakeland Fire Department",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lakeland Fire Department"
+  }, {
+    "id" : "672e9664-a5e7-5ca3-3643-4ff28330b714",
+    "name" : "location",
+    "display_width" : null,
+    "label" : "Location",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Lakeland, FL",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lakeland, FL"
+  }, {
+    "id" : "53edbbc5-c8c4-fab4-6db6-52a7c6efa351",
+    "name" : "image_field",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/quote08.jpg",
+      "alt" : "quote08",
+      "loading" : "lazy",
+      "width" : 418,
+      "height" : 307,
+      "max_width" : 418,
+      "max_height" : 307
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "quote" : "<p>I know that it’s safer: my gut tells me; my experience tells me; it’s safer for patients and our firefighters</p>",
+    "attribution" : "Shane Reynolds, Rescue Chief",
+    "company" : "Lakeland Fire Department",
+    "location" : "Lakeland, FL",
+    "image_field" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/quote08.jpg",
+      "alt" : "quote08",
+      "loading" : "lazy",
+      "width" : 418,
+      "height" : 307,
+      "max_width" : 418,
+      "max_height" : 307
+    }
+  }
+} ]

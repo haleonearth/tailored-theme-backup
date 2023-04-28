@@ -1,0 +1,31 @@
+[ {
+  "id" : "fb698cfe-1238-728a-10f4-6901b7ba742f",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "default" : "<h1>The <span class=\"ph_text-semi-embolden\">Binder</span> Lift</h1>"
+}, {
+  "id" : "3b3e8a54-8a42-d658-2e77-9fbcfa160807",
+  "name" : "background_image",
+  "display_width" : null,
+  "label" : "Background Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : false,
+  "show_loading" : false,
+  "type" : "image",
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/background-for-title.jpg",
+    "alt" : "background-for-title",
+    "loading" : "lazy",
+    "width" : 1920,
+    "height" : 315,
+    "max_width" : 1920,
+    "max_height" : 315
+  }
+} ]

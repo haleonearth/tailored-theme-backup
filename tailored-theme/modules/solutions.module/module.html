@@ -1,0 +1,126 @@
+
+<div class="jk_module__solutions-section tw-grid tw-grid-cols-12 tw-grid-rows-1">
+	<div class="jk_ss__side-nav tw-col-span-12 md:tw-col-span-5 lg:tw-col-span-4 xl:tw-col-span-3 tw-py-5 md:tw-py-14">
+
+		<div class="jk_ss__links-list">
+			<div class="jk_ss__links-list__inner-wrapper">
+
+				<!-- -->
+				<h2 style="color: {{ module.style.color_field.color }};"> {% inline_text field="sidebar_links.title" value="{{ module.sidebar_links.title }}" no_wrap9op0
+          per=True %}</h2>
+
+				<ul>
+					{% for item in module.sidebar_links.links %}
+					<li>
+						{% set href = item.link_field.url.href %}
+						{% if item.link_field.url.type is equalto "EMAIL_ADDRESS" %}
+						{% set href = "mailto:" + href %}
+						{% endif %}
+						<a href="{{ href }}" {% if item.link_field.open_in_new_tab %}target="_blank" {% endif %} {% if item.link_field.rel %}rel="{{ item.link_field.rel }}" {% endif %}>
+							{% inline_text field="link_name" value="{{ item.link_name }}" no_wrapper=True %}
+						</a>
+					</li>
+					{% endfor %}
+				</ul>
+				<!-- -->
+
+			</div>
+
+		</div>
+
+	</div>
+	<div class="jk_ss__main tw-col-span-12 md:tw-col-span-7 lg:tw-col-span-8 xl:tw-col-span-9 tw-flex tw-flex-col tw-items-center tw-p-5 xl:tw-p-14">
+		{% for item in module.product %}
+		<div class="jk_ss__product tw-flex tw-flex-col lg:tw-flex-row tw-mb-8">
+			<div class="jk_ss__product--col tw-flex tw-justify-center lg:tw-justify-start tw-items-start">
+				<img class="tw-block" src="{{ item.product_image.src }}" alt="{{ item.product_image.alt }}" />
+			</div> <!-- /.jk_ss__product--col -->
+
+			<div class="jk_ss__product--col tw-px-2 md:tw-px-6">
+				<h3 class="jk_ss__product--title tw-mb-0">
+					{% inline_text field="title" value="{{ item.title }}" %}
+				</h3>
+				<div class="jk_ss__product--body-copy">
+					<div class="jk_ss__description">
+						{% inline_text field="description" value="{{ item.description }}" %}
+					</div>
+					<div class="jk_ss__product--more-info tw-mb-4">
+						{% set href = item.more_info_link.url.href %}
+						{% if item.more_info_link.url.type is equalto "EMAIL_ADDRESS" %}
+						{% set href = "mailto:" + href %}
+						{% endif %}
+					</div> <!-- /.jk_ss__product--more-info -->
+          <!-- Buttons for modals -->
+		<div class="ph_mod-product_button-container tw-flex tw-justify-center tw-flex-wrap">
+			<button class="myButton ph_button__quote ph_btn-1 ph_product-overview__cta ph_product-overview__btn cta_button ph_cta-custom tw-m-3 tw-block tw-w-52">Request Quote</button>
+			<button class="myButton ph_button__field-trial ph_btn-2 ph_product-overview__cta ph_product-overview__btn cta_button ph_cta-custom tw-m-3 tw-block tw-w-52">Request Field Trial</button>
+		</div> <!-- /.ph_mod-product_button-container -->
+				</div>
+
+			</div> <!-- /.jk_ss__product--col -->
+
+		</div> <!-- /.jk_ss__product -->
+		{% endfor %}
+	</div> <!-- /.jk_ss__main-->
+</div>
+
+<!-- |||||||||| SECTION :: Modals |||||||||| -->
+<div class="ph_product-overview__ctas tw-flex tw-justify-center">
+	<div class="micromodal__master">
+		<!-- Modal 1 -->
+		<div class="modal micromodal-slide" id="modal-1" aria-hidden="true">
+			<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+				<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">
+					<header class="modal__header">
+						<h2 class="modal__title" id="modal-1-title">
+							<span class="ph_text-embolden">Request</span> a Quote
+						</h2>
+						<button class="modal__close" aria-label="Close modal" tabindex="-1" data-micromodal-close></button>
+					</header>
+					<main class="modal__content" id="modal-1-content">
+						<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+						<script>
+							hbspt.forms.create({
+								region: "na1",
+								portalId: "22759948",
+								formId: "23e66326-d1d8-47c0-bb0a-544e5cb9b765"
+							});
+						</script>
+					</main>
+					<footer class="modal__footer">
+						<button class="modal__btn tw-hidden" data-micromodal-close aria-label="Close this dialog window">Close</button>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		<!-- Modal 2 -->
+		<div class="modal micromodal-slide" id="modal-2" aria-hidden="true">
+			<div class="modal__overlay" tabindex="-1" data-micromodal-close>
+				<div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-2-title">
+					<header class="modal__header">
+						<h2 class="modal__title" id="modal-2-title">
+							<span class="ph_text-embolden">Request</span> Field Trial
+						</h2>
+						<button class="modal__close" aria-label="Close modal" tabindex="-1" data-micromodal-close></button>
+					</header>
+					<main class="modal__content" id="modal-2-content">
+						<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+						<script>
+							hbspt.forms.create({
+								region: "na1",
+								portalId: "22759948",
+								formId: "9211d0c6-dc60-4ec9-ba07-bad34d0003fe"
+							});
+						</script>
+					</main>
+					<footer class="modal__footer">
+						<button class="modal__btn tw-hidden" data-micromodal-close aria-label="Close this dialog window">Close</button>
+					</footer>
+				</div>
+			</div>
+		</div>
+
+		
+	</div>
+</div> <!-- /.ph_product-overview__ctas -->

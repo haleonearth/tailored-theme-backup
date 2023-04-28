@@ -1,0 +1,93 @@
+[ {
+  "id" : "4f506b92-dcf3-e3ac-6815-30e06f7c8cce",
+  "name" : "field_group",
+  "display_width" : null,
+  "label" : "Field group",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "05c53315-5ec2-4430-4fd1-a49643392ab0",
+    "name" : "link_title",
+    "display_width" : null,
+    "label" : "Link Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Training Resources",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Training Resources"
+  }, {
+    "id" : "fe19c5de-2bc7-16b4-2ad5-44036f1dd2c8",
+    "name" : "link_field",
+    "display_width" : null,
+    "label" : "Link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://google.com",
+        "content_id" : null
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }, {
+    "id" : "1a472ce6-f0af-9e87-1900-c6e369fabcd2",
+    "name" : "background_image",
+    "display_width" : null,
+    "label" : "Background Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/link-bg-check-off.png",
+      "alt" : "link-bg-check-off",
+      "loading" : "lazy",
+      "width" : 864,
+      "height" : 239,
+      "max_width" : 864,
+      "max_height" : 239
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "link_title" : "Training Resources",
+    "link_field" : {
+      "url" : {
+        "type" : "EXTERNAL",
+        "href" : "https://google.com",
+        "content_id" : null
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    },
+    "background_image" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/link-bg-check-off.png",
+      "alt" : "link-bg-check-off",
+      "loading" : "lazy",
+      "width" : 864,
+      "height" : 239,
+      "max_width" : 864,
+      "max_height" : 239
+    }
+  }
+} ]

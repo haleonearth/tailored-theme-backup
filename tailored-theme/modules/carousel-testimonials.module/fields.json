@@ -1,0 +1,66 @@
+[ {
+  "id" : "a0284286-247b-f953-e5db-4cfa89b288de",
+  "name" : "testimonial",
+  "display_width" : null,
+  "label" : "Testimonial",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "e8e14664-c706-b9fd-6c9b-c3bfa632ad5a",
+    "name" : "block_quotation",
+    "display_width" : null,
+    "label" : "Block Quotation",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "We have had great success with our Binder Lift. Once it was placed in service we used it 3 times within that week! Using it has been such a back saver to our EMS staff and also much easier on our patients as they feel more secure."
+  }, {
+    "id" : "bbe3068a-eb5b-2642-d944-be27ec2a6a6e",
+    "name" : "cite_quote",
+    "display_width" : null,
+    "label" : "Cite Quote",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER" ],
+    "type" : "url",
+    "default" : {
+      "content_id" : null,
+      "href" : "https://www.atwater.org/departments/fire/",
+      "type" : "EXTERNAL"
+    }
+  }, {
+    "id" : "600cc763-82a1-266b-4088-b36153ab2288",
+    "name" : "attribution",
+    "display_width" : null,
+    "label" : "Attribution",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Atwater Fire Department",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Atwater Fire Department"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "block_quotation" : "We have had great success with our Binder Lift. Once it was placed in service we used it 3 times within that week! Using it has been such a back saver to our EMS staff and also much easier on our patients as they feel more secure.",
+    "cite_quote" : {
+      "content_id" : null,
+      "href" : "https://www.atwater.org/departments/fire/",
+      "type" : "EXTERNAL"
+    },
+    "attribution" : "Atwater Fire Department"
+  }
+} ]

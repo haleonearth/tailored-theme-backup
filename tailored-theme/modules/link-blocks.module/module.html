@@ -1,0 +1,39 @@
+<div class="tw-flex tw-flex-wrap tw-justify-between ph_link-blocks">
+  {% for item in module.field_group %} {% set href = item.link_field.url.href %}
+  {% if item.link_field.url.type is equalto "EMAIL_ADDRESS" %} {% set href =
+  "mailto:" + href %} {% endif %}
+  <a
+    href="{{ href }}"
+    {%
+    if
+    item.link_field.open_in_new_tab
+    %}target="_blank"
+    {%
+    endif
+    %}
+    {%
+    if
+    item.link_field.rel
+    %}rel="{{ item.link_field.rel }}"
+    {%
+    endif
+    %}
+    style="background-image: url('{{ item.background_image.src }}');"
+    class="ph_link-block tw-flex tw-items-center tw-text-white tw-border-4 tw-border-white tw-h-28 tw-justify-center tw-transition-all tw-grow tw-bg-cover tw-bg-center tw-bg-no-repeat"
+  >
+    <div
+      class="tw-flex tw-items-center tw-justify-center tw-transition-all ph_link-block__content tw-duration-400"
+    >
+      <div class="tw-text-center ph_link-block__title">
+        {% inline_text field="link_title" value="{{ item.link_title }}"
+        no_wrapper=True %}
+      </div>
+      <img
+        src="https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/gx-icon-arrow-download-white.svg"
+        alt="download arrow"
+        class="tw-ml-4 ph_link-block__arrow"
+      />
+    </div>
+  </a>
+  {% endfor %}
+</div>

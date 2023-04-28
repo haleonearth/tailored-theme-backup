@@ -1,0 +1,12 @@
+{
+  "global" : false,
+  "host_template_types" : [ "PAGE", "BLOG_POST" ],
+  "module_id" : 102520140886,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../css/elements/_typography.css",
+    "name" : "_typography.css"
+  } ],
+  "label" : "Case Study Cards",
+  "is_available_for_new_content" : true
+}

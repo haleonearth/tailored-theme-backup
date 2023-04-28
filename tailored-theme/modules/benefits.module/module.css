@@ -1,0 +1,17 @@
+.module_benefits {
+  font-family: proxima-nova,sans-serif;
+}
+
+.module_benefits .benefit_title {
+  font-size: 28px;
+  line-height: 32px;
+  font-family: proxima-nova-condensed, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 8px;
+}
+
+.module_benefits p {
+  font-size: 18px;
+  line-height: 28px;
+}

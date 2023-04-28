@@ -1,0 +1,6 @@
+.module_ph_section-divider {
+    height: 3px;
+  -moz-box-shadow: 0 4px 4px rgba(0,0,0,.2);
+-webkit-box-shadow: 0 4px 4px rgba(0,0,0,.2);
+box-shadow: 0 4px 4px rgba(0,0,0,.2);
+}

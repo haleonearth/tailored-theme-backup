@@ -1,0 +1,15 @@
+[ {
+  "id" : "0580487d-6b25-00de-bc63-afa93a4595ce",
+  "name" : "id_name",
+  "display_width" : null,
+  "label" : "Section ID",
+  "inline_help_text" : "Spaces not allowed",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "placeholder" : "id-name",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "id-name"
+} ]

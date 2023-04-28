@@ -1,0 +1,129 @@
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<div class="jk_module__testimonial-carousel-2--wrapper">
+  <swiper-container
+    class="jk_module__testimonial-carousel-2 mySwiper3"
+    init="false"
+  >
+    {% for item in module.field_group %}
+    <swiper-slide class="jk_tc2__swiper-slide">
+      <div class="jk_tc2__slide-card">
+        <div class="jk_height-wrapper">
+          <img
+            class="jk_tc2__gx-stars"
+            src="https://cdn.glitch.global/57b00a73-2dd8-419b-845e-d72ffd4ecdf6/gx-stars-five.png?v=1679441833779"
+            alt="five stars"
+          />
+          <h3>
+            {% inline_text field="lede" value="{{ item.lede }}" no_wrapper=True
+            %}
+          </h3>
+          <div class="jk_tc2__body-copy line-clamp">
+            <p>
+              {% inline_text field="testimonial" value="{{ item.testimonial }}"
+              no_wrapper=True %}
+            </p>
+          </div>
+          <button class="jk_tc2-button">Read More</button>
+          <div class="jk_tc2__attribution">
+            <div class="jk_tc2__name">
+              {% inline_text field="attribution" value="{{ item.attribution }}"
+              no_wrapper=True %}
+            </div>
+            <div class="jk_tc2__org">
+              {% inline_text field="entity" value="{{ item.entity }}"
+              no_wrapper=True %}
+            </div>
+          </div>
+          <!-- /.jk_tc2__attribution -->
+        </div>
+        <!-- /.jk_height-wrapper -->
+      </div>
+      <!-- /.jk_tc2__slide-card -->
+
+      <div class="jk_tc2-modal">
+        <div class="jk_tc2-modal-content">
+          <span class="jk_tc2-modal__close">&times;</span>
+          <div class="jk_tc2-modal-content__wrapper">
+            <h3>
+              {% inline_text field="lede" value="{{ item.lede }}"
+              no_wrapper=True %}
+            </h3>
+            <p>
+              {% inline_text field="testimonial" value="{{ item.testimonial }}"
+              no_wrapper=True %}
+            </p>
+            <div class="jk_tc2__attribution">
+              <p class="jk_tc2-modal-attribution">
+                <span class="jk_tc2__name">{% inline_text field="attribution" value="{{ item.attribution }}"
+                  no_wrapper=True %}</span><br />
+                <span class="jk_tc2__org"
+                  >{% inline_text field="entity" value="{{ item.entity }}"
+                  no_wrapper=True %}</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </swiper-slide>
+
+    {% endfor %}
+  </swiper-container>
+
+  <div class="jk_tc2__next swiper-button-next"></div>
+  <div class="jk_tc2__prev swiper-button-prev"></div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+<script>
+  // Get all the jk_tc2-button elements
+  var jktc2Buttons = document.querySelectorAll(".jk_tc2-button");
+
+  // Bind click event listeners to each button
+  jktc2Buttons.forEach(function (button) {
+    button.addEventListener("click", function () {
+      // Get the last 4 characters of the button's ID attribute
+      var modalIdSuffix = button.id.slice(-4);
+
+      // Construct the ID of the corresponding modal element
+      var modalId = "jk_modal-id-" + modalIdSuffix;
+
+      // Get the modal element with the specified ID
+      var jktc2Modal = document.getElementById(modalId);
+
+      // Get the <span> element that closes the modal
+      var jktc2Close = jktc2Modal.querySelector(".jk_tc2-modal__close");
+
+      // Get the original parent of jktc2Modal
+      var originalParent = jktc2Modal.parentNode;
+
+      // Get DIV higher up in DOM
+      const bodyWrapper = document.querySelector(".body-wrapper");
+
+      // Save the current parent of jktc2Modal
+      var currentParent = jktc2Modal.parentNode;
+
+      // Append the modal to the body wrapper
+      bodyWrapper.appendChild(jktc2Modal);
+
+      // Display the modal
+      jktc2Modal.style.display = "block";
+
+      // When the user clicks on <span> (x), close the modal and return it to its original position in the DOM
+      jktc2Close.onclick = function () {
+        originalParent.appendChild(jktc2Modal);
+        jktc2Modal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it and return it to its original position in the DOM
+      window.onclick = function (event) {
+        if (event.target == jktc2Modal) {
+          originalParent.appendChild(jktc2Modal);
+          jktc2Modal.style.display = "none";
+        }
+      };
+    });
+  });
+</script>

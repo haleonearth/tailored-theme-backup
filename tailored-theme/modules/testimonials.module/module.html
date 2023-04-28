@@ -1,0 +1,31 @@
+<div class="ph_testimonials tw-columns-1 md:tw-columns-2 lg:tw-columns-3
+  xl:tw-columns-4
+  tw-gap-8">
+
+  {% for item in module.testimonial %}
+  <div class="ph_testimonial__card">
+    <img
+      src="https://cdn.glitch.global/57b00a73-2dd8-419b-845e-d72ffd4ecdf6/quotation-encircled.svg?v=1676496294427"
+      alt="open quote symbol" class="ph_testimonial__gx-quote">
+    <div class="ph_testimonial__card-body">
+      <div class="ph_testimonial__image-wrapper">
+        <img src="{{ item.image_field.src }}" alt="{{ item.image_field.alt }}"
+          class="ph_testimonial__image-main">
+      </div> <!-- /.ph_testimonial__image-main -->
+      <div class="ph_testimonial__quote-wrapper">
+        <div class="ph_testimonial__quote">
+          {% inline_rich_text field="quote" value="{{ item.quote }}"
+          no_wrapper=True %}
+        </div> <!-- /.ph_testimonial__quote -->
+        <div class="ph_testimonial__attribution">- {% inline_text
+          field="attribution" value="{{ item.attribution }}" no_wrapper=True %}</div>
+        <!-- /.ph_testimonial__attribution -->
+      </div>
+    </div> <!-- /.ph_testimonial__card-body -->
+    <div class="ph_testimonial__location">{% inline_text field="company"
+      value="{{ item.company }}" no_wrapper=True %}<span>{% inline_text
+        field="location" value="{{ item.location }}" no_wrapper=True %}</span></div>
+  </div> <!-- /.ph_testimonial__card -->
+  {% endfor %}
+
+</div>

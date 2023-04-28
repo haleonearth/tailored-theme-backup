@@ -1,0 +1,26 @@
+
+<div class="jk_module__links-list">
+  <div class="jk_mod-ll__section-wrapper">
+  
+<h2 style="color: {{ module.style.color_field.color }};">  {% inline_text field="title" value="{{ module.title }}" no_wrapper=True %}</h2>  
+<ul>
+
+{% for item in module.links %}
+  <li>
+	{% set href = item.link_field.url.href %}
+	{% if item.link_field.url.type is equalto "EMAIL_ADDRESS" %}
+		{% set href = "mailto:" + href %}
+	{% endif %}
+	<a href="{{ href }}" style="color: {{ module.style.links_color.color }};"
+		{% if item.link_field.open_in_new_tab %}target="_blank"{% endif %}
+		{% if item.link_field.rel %}rel="{{ item.link_field.rel }}"{% endif %}
+		>
+		{% inline_text field="link_name" value="{{ item.link_name }}" no_wrapper=True %}
+	</a>
+    </li>
+{% endfor %}
+  
+</ul>
+  </div>
+  
+  </div>

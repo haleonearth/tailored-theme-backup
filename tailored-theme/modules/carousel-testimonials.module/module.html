@@ -1,0 +1,58 @@
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+<div
+  class="ph_carousel-testimonials swiper-container mySwiper testimonialCarousel"
+>
+  <div class="swiper-wrapper">
+    {% for item in module.testimonial %}
+    <div class="swiper-slide">
+      <div class="ph_blockquote">
+        <img
+          class="gx_stars tw-mx-auto tw-block tw-max-w-xs"
+          src="https://cdn.glitch.global/57b00a73-2dd8-419b-845e-d72ffd4ecdf6/stars.svg?v=1679441579571"
+          alt="five stars"
+        />
+        <figure>
+          <blockquote cite="{{ item.cite_quote.href }}">
+            {% inline_text field="block_quotation" value="{{
+            item.block_quotation }}" no_wrapper=True %}
+          </blockquote>
+
+          <figcaption>
+            {% inline_text field="attribution" value="{{ item.attribution }}"
+            no_wrapper=True %}
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  <!-- /.swiper-wrapper -->
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-pagination"></div>
+</div>
+<!-- /.swiper-container -->
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper(".testimonialCarousel", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 4500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>

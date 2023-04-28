@@ -1,0 +1,35 @@
+.ph_section__text-and-image {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left center;
+}
+.ph_col__copy {
+	width: 100%;
+}
+.ph_col__image {
+	width: 100%;
+}
+
+.ph_col__image img {
+	height: 100%;
+}
+
+@media (min-width: 640px) {
+} /*sm*/
+@media (min-width: 768px) {
+	.ph_col__copy {
+		width: 50%;
+	}
+	.ph_col__image {
+		width: 50%;
+	}
+}
+
+@media (min-width: 1536px) {
+	.ph_col__copy {
+		width: 60%;
+	}
+	.ph_col__image {
+		width: 40%;
+	}
+}

@@ -1,0 +1,17 @@
+<div class="jk_module__accordion hs-accordion" {% if module.max_1_open %}data-sync="true"{% endif %}>
+  {# << Should only one accordion be open at a time? #}
+    {% for accordion in module.accordions %} {# << Loop through the accordians
+    group #}
+  <div class="hs-accordion__item" aria-expanded="false"> 
+    <button>
+      {{ accordion.title }}
+      <span class="hs-accordion__item-icon"></span>
+    </button>
+    <main>
+      <div class="hs-accordion__item-content">
+        {{ accordion.content }}
+      </div>
+    </main>
+  </div>
+  {% endfor %}
+</div>

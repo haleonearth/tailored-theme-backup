@@ -1,0 +1,126 @@
+[ {
+  "id" : "68b077fd-0ada-72e7-cff4-fbf20a9469bb",
+  "name" : "case_study_card",
+  "display_width" : null,
+  "label" : "Case Study Card",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "e32ce2e8-69a9-6345-6cbf-eec517be9849",
+    "name" : "location",
+    "display_width" : null,
+    "label" : "Location",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Wisconsin",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Wisconsin"
+  }, {
+    "id" : "07ea67da-c2eb-5ee1-5037-3b36a2de0249",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor arcu.",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor arcu."
+  }, {
+    "id" : "9030a77f-586e-b701-d742-a325a6b0286d",
+    "name" : "card_category",
+    "display_width" : null,
+    "label" : "Card Category",
+    "required" : false,
+    "locked" : true,
+    "validation_regex" : "",
+    "placeholder" : "Case Study",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Case Study"
+  }, {
+    "id" : "5408dce0-2db0-f2c8-d183-af0ed47650e5",
+    "name" : "image",
+    "display_width" : null,
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/eau-claire-fire.png",
+      "alt" : "eau-claire-fire",
+      "loading" : "lazy",
+      "width" : 464,
+      "height" : 349,
+      "max_width" : 464,
+      "max_height" : 349
+    }
+  }, {
+    "id" : "9403c672-f03b-0d40-25f8-8a4ce2b9faf3",
+    "name" : "action_label",
+    "display_width" : null,
+    "label" : "Action Label",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Read Case Study",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Read Case Study"
+  }, {
+    "id" : "f6b7db23-e72a-d96d-4cdf-ac0735b183ad",
+    "name" : "card_url",
+    "display_width" : null,
+    "label" : "Card URL",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION" ],
+    "type" : "url",
+    "default" : {
+      "type" : "EXTERNAL",
+      "href" : "https://google.com",
+      "content_id" : null
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "location" : "Wisconsin",
+    "title" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam tortor arcu.",
+    "card_category" : "Case Study",
+    "image" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/eau-claire-fire.png",
+      "alt" : "eau-claire-fire",
+      "loading" : "lazy",
+      "width" : 464,
+      "height" : 349,
+      "max_width" : 464,
+      "max_height" : 349
+    },
+    "action_label" : "Read Case Study",
+    "card_url" : {
+      "type" : "EXTERNAL",
+      "href" : "https://google.com",
+      "content_id" : null
+    }
+  }
+} ]

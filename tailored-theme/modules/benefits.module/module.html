@@ -1,0 +1,35 @@
+<div class="module_benefits">
+  <dl
+    class="tw-space-y-8 sm:tw-grid sm:tw-grid-cols-2 sm:tw-gap-x-6 sm:tw-gap-y-8 sm:tw-space-y-0 lg:tw-grid-cols-3 lg:tw-gap-x-10"
+  >
+    {% for item in module.benefit %}
+    <div>
+      <dt class="benefit_title">
+        {% inline_text field="title" value="{{ item.title }}" no_wrapper=True %}
+      </dt>
+      <dd class="tw-text-base tw-leading-7 tw-flex tw-items-start">
+        <p class="tw-w-fit">
+          {% inline_text field="description" value="{{ item.description }}"
+          no_wrapper=True %}
+        </p>
+        {% if item.image_field.src %} {% set sizeAttrs = 'width="{{
+        item.image_field.width }}" height="{{ item.image_field.height }}"' %} {%
+        if item.image_field.size_type == 'auto' %} {% set sizeAttrs = 'width="{{
+        item.image_field.width }}" height="{{ item.image_field.height }}"
+        style="max-width: 100%; height: auto;"' %} {% elif
+        item.image_field.size_type == 'auto_custom_max' %} {% set sizeAttrs =
+        'width="{{ item.image_field.max_width }}" height="{{
+        item.image_field.max_height }}" style="max-width: 100%; height: auto;"'
+        %} {% endif %} {% set loadingAttr = item.image_field.loading !=
+        'disabled' ? 'loading="{{ item.image_field.loading }}"' : '' %}
+        <img
+          class="tw-max-w-full tw-h-auto tw-w-32 2xl:tw-w-48 tw-ml-4"
+          src="{{ item.image_field.src }}"
+          alt="{{ item.image_field.alt }}"
+        />
+        {% endif %}
+      </dd>
+    </div>
+    {% endfor %}
+  </dl>
+</div>

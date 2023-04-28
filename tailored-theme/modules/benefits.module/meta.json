@@ -1,0 +1,12 @@
+{
+  "global" : false,
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 104825228675,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../css/tailwind.css",
+    "name" : "tailwind.css"
+  } ],
+  "label" : "Benefits",
+  "is_available_for_new_content" : true
+}

@@ -1,0 +1,120 @@
+[ {
+  "id" : "1c71804b-5c91-794c-195e-c43d7f63cc17",
+  "name" : "title",
+  "display_width" : null,
+  "label" : "Title",
+  "required" : false,
+  "locked" : false,
+  "validation_regex" : "",
+  "placeholder" : "Title",
+  "allow_new_line" : false,
+  "show_emoji_picker" : false,
+  "type" : "text",
+  "default" : "Title"
+}, {
+  "id" : "809ec286-bfc3-f2fb-5d45-3f97375075c0",
+  "name" : "style",
+  "display_width" : null,
+  "label" : "Style",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "45a20be5-8f6b-6af4-6af5-40b9ac09671d",
+    "name" : "color_field",
+    "display_width" : null,
+    "label" : "Title Color",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "default" : {
+      "color" : "#1b1b1b",
+      "opacity" : 100
+    }
+  }, {
+    "id" : "1ef628df-6f8c-70a0-3a6a-2b0d638f2ba7",
+    "name" : "links_color",
+    "display_width" : null,
+    "label" : "Links Color",
+    "required" : false,
+    "locked" : false,
+    "type" : "color",
+    "default" : {
+      "color" : "#1b1b1b",
+      "opacity" : 100
+    }
+  } ],
+  "tab" : "STYLE",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "color_field" : {
+      "color" : "#1b1b1b",
+      "opacity" : 100
+    },
+    "links_color" : {
+      "color" : "#1b1b1b",
+      "opacity" : 100
+    }
+  }
+}, {
+  "id" : "bfe87592-dffc-214b-3df1-9184038a2226",
+  "name" : "links",
+  "display_width" : null,
+  "label" : "Links",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "f9553bde-b8cd-4cae-7e2b-0fb8636e4e4a",
+    "name" : "link_name",
+    "display_width" : null,
+    "label" : "Link Name",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Lorem Ipsum Dolor",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lorem Ipsum Dolor"
+  }, {
+    "id" : "f26996ca-db14-3174-619f-891ea56260a4",
+    "name" : "link_field",
+    "display_width" : null,
+    "label" : "Link",
+    "required" : false,
+    "locked" : false,
+    "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER" ],
+    "show_advanced_rel_options" : false,
+    "type" : "link",
+    "default" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://google.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "link_name" : "Lorem Ipsum Dolor",
+    "link_field" : {
+      "url" : {
+        "content_id" : null,
+        "href" : "https://google.com",
+        "type" : "EXTERNAL"
+      },
+      "open_in_new_tab" : false,
+      "no_follow" : false
+    }
+  }
+} ]

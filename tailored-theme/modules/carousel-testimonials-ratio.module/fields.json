@@ -1,0 +1,76 @@
+[ {
+  "id" : "0c82c9bf-8953-1f06-2874-b623a12013f2",
+  "name" : "field_group",
+  "display_width" : null,
+  "label" : "Field group",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "2fe965ea-6913-f834-7126-ff4013056c97",
+    "name" : "lede",
+    "display_width" : null,
+    "label" : "Lede",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Binder Lift changes the game",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Binder Lift changes the game"
+  }, {
+    "id" : "e5f297cf-1c7f-8fc1-dd50-ddbdfa722971",
+    "name" : "testimonial",
+    "display_width" : null,
+    "label" : "Testimonial",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis lobortis fusce. Lacus aptent, egestas penatibus sollicitudin iaculis. Feugiat accumsan duis feugiat montes erat. Pulvinar malesuada purus proin sociosqu libero sagittis vulputate commodo augue nec laoreet netus. ",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "The Binder Lift changes the game in terms of getting patients up from sitting or lying positions and awkward positions where they’ve fallen,” says Adam Kuhs, AEMT, Bell’s deputy director of operations. “The older you get, the more fragile you may be, so we want to get them up with a minimal risk of injury. The Binder Lift is great because it gives you extra leverage on the patient and different handles for different approaches to lifting."
+  }, {
+    "id" : "d959613b-af11-5d50-b6a7-543d7636c21a",
+    "name" : "attribution",
+    "display_width" : null,
+    "label" : "Attribution",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Adam Kuhs",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Adam Kuhs"
+  }, {
+    "id" : "eba71dba-46e1-84fb-34ce-96e1e993ec27",
+    "name" : "entity",
+    "display_width" : null,
+    "label" : "Entity",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Deputy Director, Bell Ambulance",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Deputy Director, Bell Ambulance"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "lede" : "Binder Lift changes the game",
+    "testimonial" : "The Binder Lift changes the game in terms of getting patients up from sitting or lying positions and awkward positions where they’ve fallen,” says Adam Kuhs, AEMT, Bell’s deputy director of operations. “The older you get, the more fragile you may be, so we want to get them up with a minimal risk of injury. The Binder Lift is great because it gives you extra leverage on the patient and different handles for different approaches to lifting.",
+    "attribution" : "Adam Kuhs",
+    "entity" : "Deputy Director, Bell Ambulance"
+  }
+} ]

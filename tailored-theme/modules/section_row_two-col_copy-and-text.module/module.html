@@ -1,0 +1,20 @@
+<div
+  class="ph_section__text-and-image"
+  style="background-image: url({{ module.background_image.src }});"
+>
+  <div class="ph_row tw-flex tw-flex-wrap">
+    <div
+      class="ph_col ph_col__copy tw-flex tw-flex-col tw-justify-center xl:tw-px-32 tw-py-12 tw-px-6"
+    >
+      {% inline_rich_text field="text_column" value="{{ module.text_column }}"
+      no_wrapper=True %}
+    </div>
+    <div class="ph_col ph_col__image">
+      <img
+        class="tw-object-cover tw-object-left"
+        src="{{ module.image_column.src }}"
+        alt="{{ module.image_column.alt }}"
+      />
+    </div>
+  </div>
+</div>

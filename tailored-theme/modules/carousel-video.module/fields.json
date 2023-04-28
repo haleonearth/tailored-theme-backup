@@ -1,0 +1,53 @@
+[ {
+  "id" : "33296510-35ac-7736-c233-372465c76989",
+  "name" : "video_slide",
+  "display_width" : null,
+  "label" : "Video Slide",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "00e7b31c-926b-9ab0-3794-e27f8ef3aa85",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<h2><span class=\"ph_text-embolden\">BINDER Lift</span> <br>Training Video</h2>"
+  }, {
+    "id" : "396acdca-a9aa-0f64-5224-396b3e12421e",
+    "name" : "videoplayer_field",
+    "display_width" : null,
+    "label" : "Video",
+    "required" : false,
+    "locked" : false,
+    "resizable" : false,
+    "show_preview" : true,
+    "show_advanced_options" : false,
+    "type" : "videoplayer",
+    "default" : {
+      "player_id" : 100784431435,
+      "height" : 1080,
+      "width" : 1920,
+      "player_type" : "hsvideo2"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "title" : "<h2><span class=\"ph_text-embolden\">BINDER Lift</span> <br>Training Video</h2>",
+    "videoplayer_field" : {
+      "player_id" : 100784431435,
+      "height" : 1080,
+      "width" : 1920,
+      "player_type" : "hsvideo2"
+    }
+  }
+} ]

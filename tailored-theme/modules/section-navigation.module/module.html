@@ -1,0 +1,6 @@
+
+<div class="module_ph_section-navigation">
+  {% for item in module.page_sections_navigation %}
+  <a class="ph_section-navigation__link" href="#{% inline_text field="section_anchor_value" value="{{ item.section_anchor_value }}" no_wrapper=True %}">{% inline_text field="section_title" value="{{ item.section_title }}" no_wrapper=True %}</a>	
+  {% endfor %}
+</div>

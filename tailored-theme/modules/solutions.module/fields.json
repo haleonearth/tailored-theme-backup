@@ -1,0 +1,179 @@
+[ {
+  "id" : "c6a0b625-4439-d633-c438-14bfe5e245a7",
+  "name" : "sidebar_links",
+  "display_width" : null,
+  "label" : "Sidebar Links",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "783916b5-e114-2f4a-d5dd-eac8e892e7f2",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Title",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Title"
+  }, {
+    "id" : "d6b9995d-c507-2948-0653-f12ae6935c80",
+    "name" : "links",
+    "display_width" : null,
+    "label" : "Links",
+    "required" : false,
+    "locked" : false,
+    "occurrence" : {
+      "min" : null,
+      "max" : null,
+      "sorting_label_field" : null,
+      "default" : null
+    },
+    "children" : [ {
+      "id" : "ebc9b7e0-6521-3980-d187-6f1957c1a527",
+      "name" : "link_name",
+      "display_width" : null,
+      "label" : "Link Name",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "placeholder" : "Link Name",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "Link Name"
+    }, {
+      "id" : "9e52ca13-276a-28f7-cb90-4afe84eae208",
+      "name" : "link_field",
+      "display_width" : null,
+      "label" : "Link",
+      "required" : false,
+      "locked" : false,
+      "supported_types" : [ "EXTERNAL", "CONTENT", "FILE", "EMAIL_ADDRESS", "BLOG", "CALL_TO_ACTION", "PHONE_NUMBER", "WHATSAPP_NUMBER" ],
+      "show_advanced_rel_options" : false,
+      "type" : "link",
+      "default" : {
+        "url" : {
+          "content_id" : null,
+          "href" : "https://google.com",
+          "type" : "EXTERNAL"
+        },
+        "open_in_new_tab" : false,
+        "no_follow" : false
+      }
+    } ],
+    "tab" : "CONTENT",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "link_name" : "Link Name",
+      "link_field" : {
+        "url" : {
+          "content_id" : null,
+          "href" : "https://google.com",
+          "type" : "EXTERNAL"
+        },
+        "open_in_new_tab" : false,
+        "no_follow" : false
+      }
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "title" : "Title",
+    "links" : {
+      "link_name" : "Link Name",
+      "link_field" : {
+        "url" : {
+          "content_id" : null,
+          "href" : "https://google.com",
+          "type" : "EXTERNAL"
+        },
+        "open_in_new_tab" : false,
+        "no_follow" : false
+      }
+    }
+  }
+}, {
+  "id" : "893756c9-2990-4965-744d-452b776cf928",
+  "name" : "product",
+  "display_width" : null,
+  "label" : "Product",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "b83347d2-93be-0dc5-8a28-4d10ee85b377",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Title",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Title"
+  }, {
+    "id" : "efe11ea6-2c9e-47f8-9a4b-df97556d9757",
+    "name" : "product_image",
+    "display_width" : null,
+    "label" : "Product Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/Bio%20photos/product-1.jpg",
+      "alt" : "product-1",
+      "loading" : "lazy",
+      "width" : 750,
+      "height" : 900,
+      "max_width" : 750,
+      "max_height" : 900
+    }
+  }, {
+    "id" : "1eab6318-296d-b7e2-d881-ab83fa6db87d",
+    "name" : "description",
+    "display_width" : null,
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis lobortis fusce. Lacus aptent, egestas penatibus sollicitudin iaculis. Feugiat accumsan duis feugiat montes erat. ",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis lobortis fusce. Lacus aptent, egestas penatibus sollicitudin iaculis. Feugiat accumsan duis feugiat montes erat. "
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "title" : "Title",
+    "product_image" : {
+      "size_type" : "auto",
+      "src" : "https://22759948.fs1.hubspotusercontent-na1.net/hubfs/22759948/img/Bio%20photos/product-1.jpg",
+      "alt" : "product-1",
+      "loading" : "lazy",
+      "width" : 750,
+      "height" : 900,
+      "max_width" : 750,
+      "max_height" : 900
+    },
+    "description" : "Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis lobortis fusce. Lacus aptent, egestas penatibus sollicitudin iaculis. Feugiat accumsan duis feugiat montes erat. "
+  }
+} ]

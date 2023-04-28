@@ -1,0 +1,117 @@
+{
+  "name" : {
+    "message" : "product-overview-2",
+    "description" : "",
+    "placeholders" : null
+  },
+  "product_description.default" : {
+    "message" : "<p>Luctus bibendum facilisi adipiscing tempus ligula posuere dapibus elementum? Lobortis parturient ut lacinia faucibus sit. Primis malesuada curabitur diam tempus gravida montes convallis quisque justo id ut ante. Vivamus venenatis nullam diam. Eros sed conubia nisi urna proin taciti malesuada porttitor? Viverra sem inceptos ipsum sed platea fusce malesuada praesent vivamus pharetra. Fermentum felis vivamus litora at maecenas laoreet dolor, proin dictum conubia! Cubilia curae; quisque laoreet lobortis felis turpis rhoncus lorem.</p>\n<p>Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis lobortis fusce. Lacus aptent, egestas penatibus sollicitudin iaculis. Feugiat accumsan duis feugiat montes erat. Pulvinar malesuada purus proin sociosqu libero sagittis vulputate commodo augue nec laoreet netus. Donec porttitor vel senectus justo condimentum conubia. Per condimentum commodo malesuada etiam in? Lacinia aenean libero, tempor orci ultrices et! Vivamus id potenti id amet id suscipit porttitor ad fringilla. Ultrices tempus ligula, iaculis velit velit pretium in feugiat blandit dui. Sed lorem ac at, eu non et dictumst justo. Fames magnis praesent velit volutpat sociis senectus!</p>\n<p>Litora diam eu conubia sapien rhoncus phasellus arcu cubilia euismod pulvinar class. Morbi tellus aptent sem adipiscing eget duis euismod congue ridiculus, libero feugiat! Parturient eros sociosqu viverra eget erat luctus aliquam? Feugiat neque ultrices non. Neque integer sociosqu quam sem ac ridiculus. Neque non rutrum porttitor fermentum dignissim dis aliquam libero dapibus. Tempor euismod libero pretium. Mus netus euismod euismod! Per, viverra elit risus risus platea aenean.</p>",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_description.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_description.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_description.label" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_description.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_title.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_title.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_title.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_title.label" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_title.placeholder" : {
+    "message" : "Product Title",
+    "description" : null,
+    "placeholders" : null
+  },
+  "product_title.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "section_content.default" : {
+    "message" : "<div class=\"tw-flex tw-justify-between tw-flex-wrap ph_specs__cols\">\n<div class=\"ph_col\">\n<h3>NYLON</h3>\n<ul>\n<li>The Nylon Binder Lift may be hand- or machine-washed.</li>\n<li>Remove BioThane leg straps before machine wash. Hand-clean leg straps w/soap and water or germicidal disinfectant cleaner. Air dry.</li>\n<li>Connect all three horizontal compression straps prior to machine wash.</li>\n<li>Pretreat soiled areas with commercial spot and stain removal cleaner.</li>\n<li>Wash in warm soap and water. No bleach. Rinse thoroughly.</li>\n<li>Hang or tumble dry on medium heat settings. No HIGH heat.</li>\n<li>Do not dry clean.</li>\n</ul>\n</div>\n<div class=\"ph_col\">\n<h3>VINYL</h3>\n<ul>\n<li>Hand-wash ONLY. No machine-wash or dry.</li>\n<li>Rinse off any bodily fluids with water.</li>\n<li>Wash Binder Lift with hot soap and water using soft brush or cloth.</li>\n<li>Max temp 175°.</li>\n<li>Rinse thoroughly and hang/air or wipe dry.</li>\n<li>Disinfect with germicidal cleaning wipes or 2%–5% chlorine/water solution.</li>\n<li>Alternative cleaning may be accomplished with standard hospital-grade germicidal disinfectant cleaners such as AHP (accelerated hydrogen peroxide) or Sani Wipes.</li>\n</ul>\n</div>\n</div>",
+    "description" : null,
+    "placeholders" : null
+  },
+  "section_content.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "section_content.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "section_content.label" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "section_content.placeholder" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "section_label.default" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "section_label.help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "section_label.inline_help_text" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "section_label.label" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  },
+  "section_label.placeholder" : {
+    "message" : "Lorem Ipsum Dolor",
+    "description" : null,
+    "placeholders" : null
+  },
+  "section_label.validation_regex" : {
+    "message" : "",
+    "description" : null,
+    "placeholders" : null
+  }
+}

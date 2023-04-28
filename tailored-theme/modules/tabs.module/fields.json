@@ -1,0 +1,246 @@
+[ {
+  "id" : "8b656091-1730-0ab4-fcdf-27fd72e4cf2d",
+  "name" : "tab_1",
+  "display_width" : null,
+  "label" : "Tab 1",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "a5725573-5f92-76af-e766-c2dba47438f2",
+    "name" : "tab_title",
+    "display_width" : null,
+    "label" : "Tab Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lorem Ipsum"
+  }, {
+    "id" : "1d89d8f6-602f-b2b4-c6e6-b07b2a09cd28",
+    "name" : "subtitle",
+    "display_width" : null,
+    "label" : "Subtitle",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis"
+  }, {
+    "id" : "8a1f1e2a-e026-3c96-e541-e97eb83932ef",
+    "name" : "body_copy",
+    "display_width" : null,
+    "label" : "Body Copy",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p class=\"tw-mb-3\">Pulvinar malesuada purus proin sociosqu libero sagittis vulputate commodo augue nec laoreet netus. Donec porttitor vel senectus justo condimentum conubia.</p>\n<p>Per condimentum commodo malesuada etiam in? Lacinia aenean libero, tempor orci ultrices et! Vivamus id potenti id amet id suscipit porttitor ad fringilla. Ultrices tempus ligula, iaculis velit velit pretium in feugiat blandit dui.</p>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "tab_title" : "Lorem Ipsum",
+    "subtitle" : "Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis",
+    "body_copy" : "<p class=\"tw-mb-3\">Pulvinar malesuada purus proin sociosqu libero sagittis vulputate commodo augue nec laoreet netus. Donec porttitor vel senectus justo condimentum conubia.</p>\n<p>Per condimentum commodo malesuada etiam in? Lacinia aenean libero, tempor orci ultrices et! Vivamus id potenti id amet id suscipit porttitor ad fringilla. Ultrices tempus ligula, iaculis velit velit pretium in feugiat blandit dui.</p>"
+  }
+}, {
+  "id" : "0b7a75fa-cceb-a07e-d205-23278435c27c",
+  "name" : "tab_2",
+  "display_width" : null,
+  "label" : "Tab 2",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "7fb5a146-3186-1d53-077e-e503967dac31",
+    "name" : "tab_title",
+    "display_width" : null,
+    "label" : "Tab Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lorem Ipsum"
+  }, {
+    "id" : "67213e0d-2245-419e-d7b1-ccf8a5b1f0eb",
+    "name" : "subtitle",
+    "display_width" : null,
+    "label" : "Subtitle",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis"
+  }, {
+    "id" : "d4d8d07e-380f-90f9-e676-36bb529c5889",
+    "name" : "body_copy",
+    "display_width" : null,
+    "label" : "Body Copy",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p class=\"tw-mb-3\">Pulvinar malesuada purus proin sociosqu libero sagittis vulputate commodo augue nec laoreet netus. Donec porttitor vel senectus justo condimentum conubia.</p>\n<p>Per condimentum commodo malesuada etiam in? Lacinia aenean libero, tempor orci ultrices et! Vivamus id potenti id amet id suscipit porttitor ad fringilla. Ultrices tempus ligula, iaculis velit velit pretium in feugiat blandit dui.</p>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "tab_title" : "Lorem Ipsum",
+    "subtitle" : "Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis",
+    "body_copy" : "<p class=\"tw-mb-3\">Pulvinar malesuada purus proin sociosqu libero sagittis vulputate commodo augue nec laoreet netus. Donec porttitor vel senectus justo condimentum conubia.</p>\n<p>Per condimentum commodo malesuada etiam in? Lacinia aenean libero, tempor orci ultrices et! Vivamus id potenti id amet id suscipit porttitor ad fringilla. Ultrices tempus ligula, iaculis velit velit pretium in feugiat blandit dui.</p>"
+  }
+}, {
+  "id" : "b6efb2e5-ffea-1ca0-c613-04ebfee96a76",
+  "name" : "tab_3",
+  "display_width" : null,
+  "label" : "Tab 3",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "86700a7e-bfad-8f32-3880-881bc0a07899",
+    "name" : "tab_title",
+    "display_width" : null,
+    "label" : "Tab Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lorem Ipsum"
+  }, {
+    "id" : "43bcb1ae-9461-ac9c-dcde-4e668f3ce2ab",
+    "name" : "subtitle",
+    "display_width" : null,
+    "label" : "Subtitle",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis"
+  }, {
+    "id" : "325d548e-d876-401f-1764-eef4ac577361",
+    "name" : "body_copy",
+    "display_width" : null,
+    "label" : "Body Copy",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p class=\"tw-mb-3\">Pulvinar malesuada purus proin sociosqu libero sagittis vulputate commodo augue nec laoreet netus. Donec porttitor vel senectus justo condimentum conubia.</p>\n<p>Per condimentum commodo malesuada etiam in? Lacinia aenean libero, tempor orci ultrices et! Vivamus id potenti id amet id suscipit porttitor ad fringilla. Ultrices tempus ligula, iaculis velit velit pretium in feugiat blandit dui.</p>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "tab_title" : "Lorem Ipsum",
+    "subtitle" : "Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis",
+    "body_copy" : "<p class=\"tw-mb-3\">Pulvinar malesuada purus proin sociosqu libero sagittis vulputate commodo augue nec laoreet netus. Donec porttitor vel senectus justo condimentum conubia.</p>\n<p>Per condimentum commodo malesuada etiam in? Lacinia aenean libero, tempor orci ultrices et! Vivamus id potenti id amet id suscipit porttitor ad fringilla. Ultrices tempus ligula, iaculis velit velit pretium in feugiat blandit dui.</p>"
+  }
+}, {
+  "id" : "e1f617fe-1a50-0fa1-b69a-9b2210ea9709",
+  "name" : "tab_4",
+  "display_width" : null,
+  "label" : "Tab 4",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "e90a047d-200a-66c7-52cc-e4d789a934e8",
+    "name" : "tab_title",
+    "display_width" : null,
+    "label" : "Tab Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lorem Ipsum"
+  }, {
+    "id" : "3ed42627-ff7e-cc33-3f8f-01f73923ebd0",
+    "name" : "subtitle",
+    "display_width" : null,
+    "label" : "Subtitle",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis"
+  }, {
+    "id" : "649e5fac-8d5c-d4f6-5a49-886156210f1c",
+    "name" : "body_copy",
+    "display_width" : null,
+    "label" : "Body Copy",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p class=\"tw-mb-3\">Pulvinar malesuada purus proin sociosqu libero sagittis vulputate commodo augue nec laoreet netus. Donec porttitor vel senectus justo condimentum conubia.</p>\n<p>Per condimentum commodo malesuada etiam in? Lacinia aenean libero, tempor orci ultrices et! Vivamus id potenti id amet id suscipit porttitor ad fringilla. Ultrices tempus ligula, iaculis velit velit pretium in feugiat blandit dui.</p>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "tab_title" : "Lorem Ipsum",
+    "subtitle" : "Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis",
+    "body_copy" : "<p class=\"tw-mb-3\">Pulvinar malesuada purus proin sociosqu libero sagittis vulputate commodo augue nec laoreet netus. Donec porttitor vel senectus justo condimentum conubia.</p>\n<p>Per condimentum commodo malesuada etiam in? Lacinia aenean libero, tempor orci ultrices et! Vivamus id potenti id amet id suscipit porttitor ad fringilla. Ultrices tempus ligula, iaculis velit velit pretium in feugiat blandit dui.</p>"
+  }
+}, {
+  "id" : "88ebcd86-c2e6-40c9-1e54-07591b75313f",
+  "name" : "tab_5",
+  "display_width" : null,
+  "label" : "Tab 5",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "2fbd6fee-49cd-aa75-42e5-371c575c9bdb",
+    "name" : "tab_title",
+    "display_width" : null,
+    "label" : "Tab Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Lorem Ipsum"
+  }, {
+    "id" : "c1ec4f78-7fd4-a1a9-5f10-0f56782da59f",
+    "name" : "subtitle",
+    "display_width" : null,
+    "label" : "Subtitle",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis"
+  }, {
+    "id" : "26c10f7a-b386-aebd-6923-fdb1e039ac1c",
+    "name" : "body_copy",
+    "display_width" : null,
+    "label" : "Body Copy",
+    "required" : false,
+    "locked" : false,
+    "type" : "richtext",
+    "default" : "<p class=\"tw-mb-3\">Pulvinar malesuada purus proin sociosqu libero sagittis vulputate commodo augue nec laoreet netus. Donec porttitor vel senectus justo condimentum conubia.</p>\n<p>Per condimentum commodo malesuada etiam in? Lacinia aenean libero, tempor orci ultrices et! Vivamus id potenti id amet id suscipit porttitor ad fringilla. Ultrices tempus ligula, iaculis velit velit pretium in feugiat blandit dui.</p>"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "tab_title" : "Lorem Ipsum",
+    "subtitle" : "Vel scelerisque eget lorem natoque cum porttitor mattis suspendisse mattis",
+    "body_copy" : "<p class=\"tw-mb-3\">Pulvinar malesuada purus proin sociosqu libero sagittis vulputate commodo augue nec laoreet netus. Donec porttitor vel senectus justo condimentum conubia.</p>\n<p>Per condimentum commodo malesuada etiam in? Lacinia aenean libero, tempor orci ultrices et! Vivamus id potenti id amet id suscipit porttitor ad fringilla. Ultrices tempus ligula, iaculis velit velit pretium in feugiat blandit dui.</p>"
+  }
+} ]

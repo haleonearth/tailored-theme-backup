@@ -1,0 +1,50 @@
+[ {
+  "id" : "fe3fccba-54d2-f67e-f97b-2e1d94e51eb1",
+  "name" : "page_sections_navigation",
+  "display_width" : null,
+  "label" : "Page Sections Navigation",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : null,
+    "max" : null,
+    "sorting_label_field" : null,
+    "default" : null
+  },
+  "children" : [ {
+    "id" : "30200d2f-aa12-c124-fb8f-e001b79b1dc2",
+    "name" : "section_title",
+    "display_width" : null,
+    "label" : "Section Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Section Title",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Section Title"
+  }, {
+    "id" : "0fa021b3-9cb0-b58f-2177-36da2a1db9b1",
+    "name" : "section_anchor_value",
+    "display_width" : null,
+    "label" : "Section Anchor Value",
+    "help_text" : "",
+    "inline_help_text" : "Note: anchor values can't contain spaces.\n\nUse of this module requires \"Section Anchor\" modules to exist the page, each with unique anchor values. Place the anchor value from the respective \"Section Anchor\" module you want to link to.",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "binder-training",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "binder-training"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "section_title" : "Section Title",
+    "section_anchor_value" : "binder-training"
+  }
+} ]

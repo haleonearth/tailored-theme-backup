@@ -1,0 +1,28 @@
+{####################################
+HubSpot Accordion Module
+#####################################
+This module was provided as an easy
+to implement option for users, and
+also serves as a simple example for
+developers to learn from & work with.
+#-----------------------------------#}
+
+
+<div class="hs-accordion" {% if module.max_1_open %}data-sync="true"{% endif %}>
+  {# << Should only one accordion be open at a time? #}
+    {% for accordion in module.accordions %} {# << Loop through the accordians
+    group #}
+  <div class="hs-accordion__item" aria-expanded="{% if accordion.open_by_default
+    %}true{% endif %}"> {# << Should this accordion be open on page load? #}
+    <button>
+      {{ accordion.title }}
+      <span class="hs-accordion__item-icon"></span>
+    </button>
+    <main>
+      <div class="hs-accordion__item-content">
+        {{ accordion.content }}
+      </div>
+    </main>
+  </div>
+  {% endfor %}
+</div>

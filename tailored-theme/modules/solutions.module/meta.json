@@ -1,0 +1,16 @@
+{
+  "global" : false,
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 108917217301,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../css/main.css",
+    "name" : "main.css"
+  }, {
+    "autoload" : true,
+    "path" : "../../css/tailwind.css",
+    "name" : "tailwind.css"
+  } ],
+  "label" : "Solutions Section",
+  "is_available_for_new_content" : true
+}
