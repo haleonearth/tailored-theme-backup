@@ -41,6 +41,5 @@ Helper classes with ability to override anything that comes before it
 */
 
 {% include './utilities/_helper.css' %}
-
- {% include 'tailwind.css' %}
- {% include 'titan.css' %}
+ {% include './tailwind.css' %}
+ {% include './titan.css' %}
