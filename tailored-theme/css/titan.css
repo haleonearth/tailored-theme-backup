@@ -1,0 +1,32 @@
+html,
+body {
+  overflow-x: hidden !important;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.dnd-section .dnd-column {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.hs-site-page ul {
+  list-style: disc !important;
+  padding-left: 15px;
+}
+
+.hs-site-page ul li {
+  margin-bottom: 16px;
+}
+
+.hs-site-page p {
+  margin-bottom: 18px;
+}

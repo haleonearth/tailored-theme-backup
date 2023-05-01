@@ -1,0 +1,346 @@
+[ {
+  "id" : "5de9fc48-fd4a-963f-ae4c-9ed98465e177",
+  "name" : "starter_program",
+  "display_width" : null,
+  "label" : "Starter Program",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "afbeb28f-bc21-e181-9d7e-3c2f348c1347",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Starter Program",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Starter Program"
+  }, {
+    "id" : "01ec6a00-9af3-4713-e7dc-151a93af42a1",
+    "name" : "spending",
+    "display_width" : null,
+    "label" : "Spending",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Spend $10,000 annually",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Spend $10,000 annually"
+  }, {
+    "id" : "69c499e8-f50f-7b6b-f60a-0fa18080a17e",
+    "name" : "price",
+    "display_width" : null,
+    "label" : "Price",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "5000",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "5000"
+  }, {
+    "id" : "2aaa7363-49ff-c2d5-5f00-0ded014fc471",
+    "name" : "subtext",
+    "display_width" : null,
+    "label" : "Subtext",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "prepaid credit toward future purchases includes free store setup",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "prepaid credit toward future purchases includes free store setup"
+  }, {
+    "id" : "ed17aa87-6583-0e3f-37c4-a84f1c4f0a44",
+    "name" : "cta_field",
+    "display_width" : null,
+    "label" : "CTA",
+    "required" : false,
+    "locked" : false,
+    "type" : "cta",
+    "default" : "b7f7831d-0f3c-4093-aa11-fbed031937e9"
+  }, {
+    "id" : "56d011ae-7ba0-3e3f-93b4-4ab135cf4b3e",
+    "name" : "list",
+    "display_width" : null,
+    "label" : "List",
+    "required" : false,
+    "locked" : false,
+    "occurrence" : {
+      "min" : null,
+      "max" : null,
+      "sorting_label_field" : null,
+      "default" : null
+    },
+    "children" : [ {
+      "id" : "c4f8fc67-26e5-2851-9399-c32149b5aaed",
+      "name" : "list_item",
+      "display_width" : null,
+      "label" : "List Item",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "placeholder" : "20 Products",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "20 Products"
+    } ],
+    "tab" : "CONTENT",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "list_item" : "20 Products"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "title" : "Starter Program",
+    "spending" : "Spend $10,000 annually",
+    "price" : "5000",
+    "subtext" : "prepaid credit toward future purchases includes free store setup",
+    "cta_field" : "b7f7831d-0f3c-4093-aa11-fbed031937e9",
+    "list" : {
+      "list_item" : "20 Products"
+    }
+  }
+}, {
+  "id" : "0f39d6cf-df14-fefc-cf70-811d39ab36b5",
+  "name" : "pro_program",
+  "display_width" : null,
+  "label" : "PRO Program",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "230934f9-2b51-2c1c-0bc1-f1fd44a862b7",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Starter Program",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Starter Program"
+  }, {
+    "id" : "7ac473c4-72a7-1406-785c-df24133e96ec",
+    "name" : "spending",
+    "display_width" : null,
+    "label" : "Spending",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Spend $10,000 annually",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Spend $10,000 annually"
+  }, {
+    "id" : "91cac92a-5b18-5ad1-1055-8cc7ce2283be",
+    "name" : "price",
+    "display_width" : null,
+    "label" : "Price",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "5000",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "5000"
+  }, {
+    "id" : "f0f0126a-7746-b01c-c421-d1752f651b39",
+    "name" : "subtext",
+    "display_width" : null,
+    "label" : "Subtext",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "prepaid credit toward future purchases includes free store setup",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "prepaid credit toward future purchases includes free store setup"
+  }, {
+    "id" : "3ca0dc3b-4a8a-4382-dbd0-e6d6bb851a92",
+    "name" : "cta_field",
+    "display_width" : null,
+    "label" : "CTA",
+    "required" : false,
+    "locked" : false,
+    "type" : "cta",
+    "default" : "b7f7831d-0f3c-4093-aa11-fbed031937e9"
+  }, {
+    "id" : "9f1fffa1-22bd-5c68-f759-d28e427a535b",
+    "name" : "list",
+    "display_width" : null,
+    "label" : "List",
+    "required" : false,
+    "locked" : false,
+    "occurrence" : {
+      "min" : null,
+      "max" : null,
+      "sorting_label_field" : null,
+      "default" : null
+    },
+    "children" : [ {
+      "id" : "1a42da41-49ad-a318-cbe7-90b226d93391",
+      "name" : "list_item",
+      "display_width" : null,
+      "label" : "List Item",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "placeholder" : "20 Products",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "20 Products"
+    } ],
+    "tab" : "CONTENT",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "list_item" : "20 Products"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "title" : "Starter Program",
+    "spending" : "Spend $10,000 annually",
+    "price" : "5000",
+    "subtext" : "prepaid credit toward future purchases includes free store setup",
+    "cta_field" : "b7f7831d-0f3c-4093-aa11-fbed031937e9",
+    "list" : {
+      "list_item" : "20 Products"
+    }
+  }
+}, {
+  "id" : "d818d1a3-7905-ee07-dad7-1f9afbec35e5",
+  "name" : "enterprise_program",
+  "display_width" : null,
+  "label" : "Enterprise Program",
+  "required" : false,
+  "locked" : false,
+  "children" : [ {
+    "id" : "86268876-55b3-ab82-6ba3-60abc95ffa91",
+    "name" : "title",
+    "display_width" : null,
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Starter Program",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Starter Program"
+  }, {
+    "id" : "598b1480-d666-32c5-da35-7ec0a92d6360",
+    "name" : "spending",
+    "display_width" : null,
+    "label" : "Spending",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "Spend $10,000 annually",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Spend $10,000 annually"
+  }, {
+    "id" : "9cb8b9ff-2c5f-8c21-136d-3ebf2d8edfde",
+    "name" : "price",
+    "display_width" : null,
+    "label" : "Price",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "5000",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "5000"
+  }, {
+    "id" : "589b1121-4b80-ecc0-efac-b8abce605552",
+    "name" : "subtext",
+    "display_width" : null,
+    "label" : "Subtext",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "placeholder" : "prepaid credit toward future purchases includes free store setup",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "prepaid credit toward future purchases includes free store setup"
+  }, {
+    "id" : "67b479b5-47ca-c545-adc7-68a4c30bc8fb",
+    "name" : "cta_field",
+    "display_width" : null,
+    "label" : "CTA",
+    "required" : false,
+    "locked" : false,
+    "type" : "cta",
+    "default" : "b7f7831d-0f3c-4093-aa11-fbed031937e9"
+  }, {
+    "id" : "6815eb02-8244-53b3-d8ab-9ab408ea14b8",
+    "name" : "list",
+    "display_width" : null,
+    "label" : "List",
+    "required" : false,
+    "locked" : false,
+    "occurrence" : {
+      "min" : null,
+      "max" : null,
+      "sorting_label_field" : null,
+      "default" : null
+    },
+    "children" : [ {
+      "id" : "bea53a79-b8c2-6a79-694c-6827f42ddd15",
+      "name" : "list_item",
+      "display_width" : null,
+      "label" : "List Item",
+      "required" : false,
+      "locked" : false,
+      "validation_regex" : "",
+      "placeholder" : "20 Products",
+      "allow_new_line" : false,
+      "show_emoji_picker" : false,
+      "type" : "text",
+      "default" : "20 Products"
+    } ],
+    "tab" : "CONTENT",
+    "expanded" : false,
+    "type" : "group",
+    "default" : {
+      "list_item" : "20 Products"
+    }
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : {
+    "title" : "Starter Program",
+    "spending" : "Spend $10,000 annually",
+    "price" : "5000",
+    "subtext" : "prepaid credit toward future purchases includes free store setup",
+    "cta_field" : "b7f7831d-0f3c-4093-aa11-fbed031937e9",
+    "list" : {
+      "list_item" : "20 Products"
+    }
+  }
+} ]

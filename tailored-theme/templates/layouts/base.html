@@ -8,6 +8,7 @@
     {% if page_meta.html_title or pageTitle %}<title>{{ page_meta.html_title or pageTitle }}</title>{% endif %}
     {% if site_settings.favicon_src %}<link rel="shortcut icon" href="{{ site_settings.favicon_src }}" />{% endif %}
     <meta name="description" content="{{ page_meta.meta_description }}">
+    <script src="https://kit.fontawesome.com/ee68da9c7f.js" crossorigin="anonymous"></script>
     {{ require_css(get_asset_url("../../css/main.css")) }}
     {# This is intended to be used if a template requires template specific style sheets #}
     {% if template_css %}

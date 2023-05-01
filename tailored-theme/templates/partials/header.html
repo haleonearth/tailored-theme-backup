@@ -1,92 +1,44 @@
 <!--
-  templateType: global_partial
-  label: Website header
+  templateType: "global_partial"
+  label: "Website header"
+  isAvailableForNewContent: false
 -->
-<header class="header">
 
-  {# The link below is used for a navigation skipper which allows users navigating the site with their keyboard to skip over the site navigation. More information on the navigation skipper can be found here: https://github.com/HubSpot/cms-theme-boilerplate/wiki/Accessibility #}
+<header class="header jk_header">
 
-  <a href="#main-content" class="header__skip">Skip to content</a>
 
-  {# Top header drag and drop area #}
+ 
+	{# The link below is used for a navigation skipper which allows users
+  navigating the site with their keyboard to skip over the site navigation. More
+  information on the navigation skipper can be found here:
+  https://github.com/HubSpot/cms-theme-boilerplate/wiki/Accessibility #}
 
-  {% dnd_area "header-top"
-    label="Top header",
-    class="content-wrapper"
-  %}
-  {% end_dnd_area %}
+	<a href="#main-content" class="header__skip">Skip to content</a>
 
-  {# Main header #}
+	{# Main header #}
 
-  <div class="header__container content-wrapper">
+	<div class="tw-mx-auto tw-px-5 tw-pt-8 tw-w-full lg:tw-w-11/12">
 
-    {# Header logo column #}
-
-    <div class="header__logo header__logo--main">
-      {% module "site_logo"
-        path="@hubspot/logo"
-        img={
-          "loading": "eager"
-        }
-      %}
-    </div>
-
-    {# Header navigation column #}
-
-    <div class="header__column">
-
-      {# Header navigation row one #}
-
-      <div class="header__row-1">
-        {% if content.translated_content.values()|selectattr("published")|length or is_listing_view and group.translations %}
-          <div class="header__language-switcher header--element">
-            <div class="header__language-switcher--label">
-              {% module "language-switcher"
-                path="@hubspot/language_switcher",
-                label="Language switcher",
-                display_mode="localized"
-              %}
-              <div class="header__language-switcher--label-current"> {{ locale_name(locale) }}</div>
-            </div>
-          </div>
-        {% endif %}
-        <div class="header__search header--element">
-          {% module "site_search"
-            path="@hubspot/search_input",
-            label="Search",
-            field_label="Search",
-            placeholder=""
-          %}
-        </div>
+    <div class="header__content-contain tw-flex tw-justify-between tw-mb-4">
+      <div class="header__brand tw-w-2/3 md:tw-w-1/2 2xl:tw-w-64">
+        <div class="header__gx-logo tw-h-20 tw-flex tw-items-end">
+					{% module "site_logo" path="@hubspot/logo" %}
+				</div>
       </div>
-
-      {# Header navigation row two #}
-
-      <div class="header__row-2">
+      <div class="header__nav tw-grow tw-flex tw-items-center md:tw-items-end tw-justify-center">
         <div class="header--toggle header__navigation--toggle"></div>
-        {% if content.translated_content|length or is_listing_view and group.translations %}
-          <div class="header--toggle header__language-switcher--toggle"></div>
-        {% endif %}
-        <div class="header--toggle header__search--toggle"></div>
-        <div class="header__close--toggle"></div>
-        <div class="header__navigation header--element">
-          {% module "navigation-primary"
-            path="../../modules/menu",
-            label="Primary navigation"
-          %}
-        </div>
+				{% if content.translated_content|length or is_listing_view and
+    group.translations %}
+				<div class="header--toggle header__language-switcher--toggle"></div>
+				{% endif %}
+				<div class="header__close--toggle"></div>
+				<div class="header__navigation header--element">
+					{% module "navigation-primary" path="../../modules/menu",
+      label="Primary navigation" %}
+				</div>
       </div>
 
     </div>
-
-  </div>
-
-  {# Bottom header drag and drop area #}
-
-  {% dnd_area "header-bottom"
-    label="Bottom header",
-    class="content-wrapper"
-  %}
-  {% end_dnd_area %}
+		</div>
 
 </header>

@@ -33,6 +33,7 @@ Specific pieces of UI that are stylized. Typically used for global partial styli
 */
 
 {% include './components/_header.css' %}
+ {% include './components/_footer.css' %}
 {% include './components/_default-modules.css' %}
 
 /* Utilities
@@ -40,3 +41,6 @@ Helper classes with ability to override anything that comes before it
 */
 
 {% include './utilities/_helper.css' %}
+
+ {% include 'tailwind.css' %}
+ {% include 'titan.css' %}
