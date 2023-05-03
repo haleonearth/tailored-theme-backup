@@ -1,7 +1,7 @@
 {
   "global" : false,
   "host_template_types" : [ "PAGE" ],
-  "module_id" : 108769943878,
+  "module_id" : 113767648542,
   "css_assets" : [ {
     "autoload" : true,
     "path" : "../../css/main.css",

@@ -12,11 +12,6 @@ form label {
   margin-bottom: 0.35rem;
 }
 
-/* Form Title */
-.form-title {
-  margin-bottom: 0;
-}
-
 /* Help text */
 
 form legend {
@@ -26,7 +21,6 @@ form legend {
 /* Inputs */
 
 form input[type=text],
-form input[type=search],
 form input[type=email],
 form input[type=password],
 form input[type=tel],
@@ -34,14 +28,10 @@ form input[type=number],
 form input[type=file],
 form select,
 form textarea {
-  display: inline-block;
+  display: block;
   font-size: 0.875rem;
   padding: 0.7rem;
   width: 100%;
-}
-
-form textarea {
-  resize: vertical;
 }
 
 form fieldset {
@@ -160,30 +150,61 @@ form .hs-button {
   margin: 0 auto;
 }
 
-{% if ( get_asset_version("@hubspot/search_input") == "1" ) %}
-  /* Search button input field and suggestions */
-  .body-container-wrapper .hs-search-field__button {
-    padding: 15px;
-  }
 
-  .body-container-wrapper .hs-search-field__bar--button-inline .hs-search-field__button {
-    margin-left: 6px;
-    margin-bottom: 0;
-  }
 
-  .body-container-wrapper .hs-search-field__button svg {
-    height: 15px;
-    fill: #fff;
-  }
+form label {
+  display: block;
+  font-size: 16px;
+  line-height: 1.625;
+  margin: 0 0 5px;
+  font-weight: 600;
+  text-align: left;
+  
+  color: #54565B;
+}
+form .input { margin: 0 !important}
+form .hs-form-field {
+  padding: 0 13px 15px;
+  margin: 0;
+}
+form .hs-form-field:first-child {
+  padding-left: 0;
+}
+form .hs-form-field:last-child {
+  padding-right: 0;
+}
+form input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]),
+form select,
+form textarea{
+  -webkit-appearance: none;
+  border: 0;
+  box-shadow: none !important;
+  position: relative;
+  width: 100% !important;
+  height: 42px; 
+  background: #fff;
+  box-sizing: border-box;
+  outline: none !important;
+  padding: 10px 15px;
+  border: 1px solid rgba(0,0,0,0.1);
+  color: #54565B;
+  font: 16px/20px "Mundo Sans", Open Sans, sans-serif;
+  transition: all .3s ease-in-out;
+}
+form input:not([type="radio"]):not([type="checkbox"]):focus, form textarea:focus {
+  border-color: #D7272E; 
+}
+form textarea {
+  min-height: 145px;
+  max-height: 200px;
+}
 
-  .body-container-wrapper .hs-search-field__bar > form > .hs-search-field__input {
-    padding: 10px;
+@media (max-width: 767px) {
+  form .hs-form-field {
+    padding: 0 0 15px;
+    margin: 0;
+    width: 100% !important;
+    float: none;
   }
+}
 
-  .body-container-wrapper .hs-search-field__suggestions li a {
-    color: #494A52;
-    padding: 0.35rem 0.7rem;
-    text-decoration: none;
-    transition: background-color 0.3s;
-  }
-{% endif %}

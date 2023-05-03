@@ -1,4 +1,4 @@
-(function () {
+/*(function () {
   // Variables
   var nav = document.querySelector('.header__navigation');
   var langSwitcher = document.querySelector('.header__language-switcher');
@@ -93,13 +93,13 @@
       return;
     } else {
       // Function dependent on language switcher
-      if (langSwitcher) {
+      if (langSwitcher) { 
         langToggle.addEventListener('click', toggleLang);
       }
 
-      // Function dependent on navigation
+      // Function dependent on navigation 
       if (navToggle) {
-        navToggle.addEventListener('click', toggleNav);
+        navToggle.addEventListener('click', toggleNav); 
       }
 
       // Function dependent on search field
@@ -118,4 +118,4 @@
       }
     }
   });
-})();
+})();*/

@@ -1,0 +1,229 @@
+/*** Global Components Styles ***/
+body.no-scroll {
+  overflow: hidden; 
+}
+.body-wrapper  {
+  position: relative;
+  overflow: hidden;
+}
+.page-container {
+  max-width: {{ theme.spacing.maximum_content_width ~ 'px' }};
+  padding: 0 {{ theme.spacing.vertical_spacing / 2 ~ 'px ' }};
+  margin: 0 auto;
+  position: relative;
+}
+
+.text-center img {
+  margin: 0 auto; 
+}
+.text-right img {
+  display: inline-block; 
+  vertical-align: top;
+}
+
+@media (max-width: 767px) {
+  .parallax-mirror, 
+  .hide-mobile {
+    display: none !important; 
+  }
+  .aos-init {
+    transition: none !important;
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important
+  }
+}
+@media (min-width: 768px) {
+  .hide-desktop {
+    display: none !important; 
+  } 
+}
+
+
+/*** MODULE GENRAL TEMPLATE ***/
+
+.nav-search a.btnPopup {
+  height: 100%;
+  width: 36px;
+  padding: 0;
+  position: relative;
+}
+
+.nav-search a.btnPopup::after {
+  content: '';
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='24px' height='24px'%3E%3Cpath fill-rule='evenodd' fill='rgb(85, 86, 90)' d='M16.702,14.830 C17.932,16.59 19.149,17.275 20.366,18.492 C21.583,19.708 22.799,20.924 23.999,22.124 C23.583,22.542 23.175,22.954 22.750,23.381 C20.331,20.960 17.893,18.520 15.456,16.81 C11.221,19.472 5.651,18.201 2.918,14.784 C0.23,11.165 0.358,6.10 3.620,2.838 C6.893,0.344 12.2,0.538 15.492,2.350 C19.4,5.257 19.963,10.739 16.702,14.830 ZM9.812,16.299 C13.732,16.303 16.925,13.119 16.929,9.202 C16.932,5.280 13.755,2.92 9.832,2.84 C5.928,2.76 2.723,5.260 2.716,9.153 C2.708,13.97 5.884,16.295 9.812,16.299 Z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat no-repeat;
+  background-position: center center;
+  background-size: cover;position: absolute;top: 23px;width: 24px;left: 3px;height: 24px;
+}
+
+.nav-search a.btnPopup i { display: none; }
+
+.module {
+  position: relative;
+  z-index: 10;
+}
+.module .module-background {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.module .module-header {
+  margin: 0 0 50px;
+}
+.btn-block {
+  padding: 32px 0 0;
+}
+
+
+
+.module .module-header:last-child {
+  margin-bottom: 0;
+}
+
+/*** Slick slider components ***/
+.slick-dots {
+  padding: 35px 20px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.slick-dots li {
+  margin: 0 7px;
+}
+.slick-dots li button {
+  border: 1px solid #007178;
+  display: block;
+  width: 16px;
+  height: 16px; 
+  padding: 0;
+  background: none;
+  font-size: 0;
+  line-height: 0; 
+  border-radius: 50%;
+}
+.slick-dots li.slick-active button {
+  background: #007178; 
+}
+
+
+
+@media (max-width: 1169px) {
+  
+  .module .module-header {
+    margin: 0 0 30px;
+  }
+  .btn-block {
+    padding: 20px 0 0;
+  }
+  /*
+  .slick-dots {
+    padding: 20px;
+  }*/
+  .slick-dots li  {
+    margin: 0 5px;
+  }
+  .slick-dots li button {
+    width: 10px;
+    height: 10px;
+  }
+}
+@media (max-width: 1023px) {
+  .module-outer-heading {
+  padding: 20px 0;
+}
+}
+.body-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0; 
+  bottom: 0;
+  z-index: 100;
+  background: rgba(0,0,0,.9);
+  transition: all .4s ease-in-out;
+}
+
+/*** POPUP Styles ***/
+
+.popup {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9000;
+  pointer-events: none;
+  opacity: 0;
+  display: flex;
+  flex-flow: row wrap;
+  visibility: hidden;
+  align-items: center;
+  transition: all .5s ease-in-out;
+}
+.popup.popup-active {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.popup .btn-close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: #fff;
+  font-size: 24px; 
+  line-height: 1;
+  z-index: 20;
+}
+.popup .popup-holder {
+  width: 100%;
+  overflow-y: auto;
+  position: relative;
+  z-index: 200;
+}
+.popup .hs-search-field {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.popup input:not([type="radio"]):not([type="checkbox"]):not([type="submit"]){
+  -webkit-appearance: none;
+  height: 60px;
+  font: 24px/28px "Ubuntu", Arial;
+  border: 0;
+  border-bottom: 3px solid #d7272e;
+  padding: 14px 0;
+  color: #fff;
+  display: block; 
+  background: none;
+}
+
+.btn-cross {
+  position: absolute;
+  width: 24px;
+  right: 20px;
+  top: 20px; 
+  height: 24px;
+  z-index: 200;
+}
+.btn-cross:after, 
+.btn-cross:before {
+  position: absolute;
+  left: 0;
+  top: 11px;
+  height: 2px;
+  transform: rotate(45deg);
+  width: 100%;
+  background: #fff;
+  content: "";
+}
+.btn-cross:after {
+  transform: rotate(-45deg);
+}

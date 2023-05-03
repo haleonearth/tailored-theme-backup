@@ -1,8 +1,9 @@
 {
   "global" : false,
   "host_template_types" : [ "PAGE" ],
-  "module_id" : 100074265222,
+  "module_id" : 113768227879,
   "css_assets" : [ {
+    "resource_id" : 113767648614,
     "autoload" : true,
     "path" : "../../css/tailwind.css",
     "name" : "tailwind.css"

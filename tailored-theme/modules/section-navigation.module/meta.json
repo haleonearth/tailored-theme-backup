@@ -1,7 +1,7 @@
 {
   "global" : false,
   "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING" ],
-  "module_id" : 106005106267,
+  "module_id" : 113768227877,
   "label" : "Page Section Navigation",
   "is_available_for_new_content" : true
 }

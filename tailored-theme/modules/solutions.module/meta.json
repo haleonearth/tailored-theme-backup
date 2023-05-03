@@ -1,12 +1,13 @@
 {
   "global" : false,
   "host_template_types" : [ "PAGE" ],
-  "module_id" : 108917217301,
+  "module_id" : 113768227882,
   "css_assets" : [ {
     "autoload" : true,
     "path" : "../../css/main.css",
     "name" : "main.css"
   }, {
+    "resource_id" : 113767648614,
     "autoload" : true,
     "path" : "../../css/tailwind.css",
     "name" : "tailwind.css"

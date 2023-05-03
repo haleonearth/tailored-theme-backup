@@ -1,47 +1,6 @@
 /*! CSS Used from: https://cdn.shopify.com/s/files/1/0337/9055/8253/t/8/assets/styles.scss.css?v=134237117925933840101664380330 ; media=all */
-@media all {
-	*,
-	*:before,
-	*:after {
-		box-sizing: inherit;
-	}
-	section {
-		display: block;
-	}
-	a {
-		color: #979797;
-		cursor: pointer;
-		text-decoration: none;
-		transition: color 0.3s ease-in-out;
-	}
-	span {
-		font-style: inherit;
-		font-weight: inherit;
-	}
-	a {
-		color: #979797;
-		cursor: pointer;
-		text-decoration: none;
-	}
-	a:hover {
-		color: #d4d4d4;
-	}
-	em {
-		font-style: italic;
-	}
-	.section {
-		max-width: 1200px;
-		width: 95%;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.section.has-background {
-		width: calc(95% - 20px);
-		max-width: 1180px;
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-}
+
+	
 /*! CSS Used from: Embedded */
 .eapps-pricing-table {
 	position: relative;
