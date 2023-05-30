@@ -1,0 +1,12 @@
+{
+  "global" : false,
+  "host_template_types" : [ "PAGE", "BLOG_POST" ],
+  "module_id" : 113894620285,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../css/tailwind.css",
+    "name" : "tailwind.css"
+  } ],
+  "label" : "Testimonials",
+  "is_available_for_new_content" : true
+}

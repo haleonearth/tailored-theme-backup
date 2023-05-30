@@ -1,0 +1,102 @@
+.footer-column-1-row-0-margin {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.footer .dnd-column {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.jk_footer__row-3 {
+	background: #5f6060;
+}
+
+.jk_footer__content-container .jk_link__social:nth-child(-n+2) {
+	margin-right: 20px;
+}
+
+.jk_footer__content-container .jk_link__logo:nth-child(-n+3) {
+	margin-right: 10px;
+}
+
+.jk_footer__content-container .jk_link__logo:first-child  img {
+	height: 50px;
+}
+
+.jk_footer__content-container .jk_link__logo:nth-child(2)  img {
+	height: 30px;
+  mix-blend-mode: multiply;
+}
+
+.jk_footer__content-container .jk_link__logo:nth-child(3)  img {
+	height: 35px;
+  mix-blend-mode: multiply;
+}
+
+.jk_footer__content-container .jk_logo:nth-child(4)  img {
+	height: 25px;
+}
+
+.jk_footer__pipe {
+	background: #807f7f;
+	width: 2px;
+	height: 50px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.jk_footer__row-2 a {
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.jk_footer__row-2 a:hover, .jk_footer__row-2 a:focus, .jk_footer__row-2 a:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.jk_disabled {
+   pointer-events: none !important;
+   cursor: default !important;
+}
+
+.jk_disabled:hover {
+   -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+
+.jk_logo__tco {
+  max-width: 375px !important;
+    mix-blend-mode: multiply;
+}
+
+.jk_footer__content-container {
+    background-image: url(https://323765.fs1.hubspotusercontent-na1.net/hubfs/323765/img/yabg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jk_link__social:first-child img {
+    width: auto;
+    height: 34px;
+}
+
+.jk_link__social:nth-child(2) img {
+    width: auto;
+    height: 38px;
+}
+
+.jk_link__social:nth-child(3) img {
+    width: auto;
+    height: 34px;
+}
+
+.jk_footer__row-3 {
+    font-size: 16px;
+}

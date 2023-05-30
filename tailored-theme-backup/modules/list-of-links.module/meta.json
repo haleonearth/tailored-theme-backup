@@ -1,0 +1,12 @@
+{
+  "global" : false,
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 113892436354,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../css/main.css",
+    "name" : "main.css"
+  } ],
+  "label" : "List of Links",
+  "is_available_for_new_content" : true
+}

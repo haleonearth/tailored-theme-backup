@@ -1,0 +1,8 @@
+{
+  "global" : false,
+  "icon" : "../../../tailored-company-theme/images/module-icons/info-circle-solid.svg",
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 113892378258,
+  "label" : "Card",
+  "is_available_for_new_content" : true
+}

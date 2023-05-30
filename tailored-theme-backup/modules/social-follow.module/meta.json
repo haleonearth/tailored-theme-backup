@@ -1,0 +1,8 @@
+{
+  "global" : false,
+  "icon" : "../../../tailored-company-theme/images/module-icons/social.svg",
+  "host_template_types" : [ "PAGE", "BLOG_POST", "BLOG_LISTING" ],
+  "module_id" : 113894620283,
+  "label" : "Social follow",
+  "is_available_for_new_content" : true
+}

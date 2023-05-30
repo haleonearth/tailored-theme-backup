@@ -1,0 +1,12 @@
+{
+  "global" : false,
+  "host_template_types" : [ "PAGE" ],
+  "module_id" : 113892786563,
+  "css_assets" : [ {
+    "autoload" : true,
+    "path" : "../../css/tailwind.css",
+    "name" : "tailwind.css"
+  } ],
+  "label" : "Section - Row - 2col - Copy and Text",
+  "is_available_for_new_content" : true
+}

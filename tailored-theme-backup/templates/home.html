@@ -1,0 +1,23 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Home
+  screenshotPath: ../images/template-previews/home.png
+-->
+{% extends "./layouts/base.html" %}
+
+{% block body %}
+
+{% dnd_area "dnd_area"
+  label="Main section",
+  class="body-container body-container--home"
+%}
+
+  {# Hero banner #}
+
+  {% include_dnd_partial path="../sections/hero-banner.html" %}
+
+  
+
+{% end_dnd_area %}
+{% endblock body %}
